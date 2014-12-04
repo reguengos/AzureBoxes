@@ -339,7 +339,7 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
 	background-size: 20px;
 }
 .popupSocial{
-	width: auto;
+	width: 100%;
 	float: right;
 	padding: 0;
 	margin-top: 20px;
@@ -347,16 +347,24 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
 
 .twitter-share-button{
 	width: 70px;
-    height: 20px;
-    margin:0;
+    	height: 20px;
+    	margin:0;
 	float: left;
 }
 
-.popupfb{
+.IN-widget{
+	margin-left:78px;
+
+}
+
+
+.fb_iframe_widget{
 	width: 130px;
-	margin:0;
+	display:inline-flex !important;
+	margin-left:80px;
 	float: left;
 }
+
 
 .popupNegro a{
 	color: #fff;
@@ -512,11 +520,34 @@ ul{
 	width: 300px;
 	margin-bottom: 25px;
 	margin-left: 8px;
-    margin-right: 4px;
-    height: auto;
+    	margin-right: 4px;
+    	height: auto;
 	overflow: hidden;
 	float: left;
 }
+
+
+
+.twitter-share-button{
+	width: 70px;
+    	height: 20px;
+    	margin:0;
+	float: left;
+}
+
+.IN-widget{
+	margin-left:78px;
+
+}
+
+
+.fb_iframe_widget{
+	width: 130px;
+	display:inline-flex !important;
+	margin-left:80px;
+	float: left;
+}
+
 
 
 #footer{
@@ -607,6 +638,28 @@ ul{
 	font-weight: bold;
 }
 
+.twitter-share-button{
+	width: 70px;
+    	height: 20px;
+    	margin:0;
+	float: left;
+}
+
+.IN-widget{
+	margin-left:80px;
+
+}
+
+
+.fb_iframe_widget{
+	width: 130px;
+	display:inline-flex !important;
+	margin-left:75px;
+	float: left;
+}
+
+
+
 .medio{
 	margin: 0px;
 }
@@ -628,18 +681,7 @@ ul{
 	font-size: 12px;
 }
 
-.twitter-share-button{
-	width: 110px!important; 
-    height: 20px!important; 
-    margin:0;
-	float: left;
-}
 
-.popupfb{
-	width: 130px;
-	margin:0;
-	float: left;
-}
 
 }
 
@@ -744,15 +786,22 @@ ul{
 }
 
 .twitter-share-button{
-	width: 110px!important; 
-    height: 20px!important; 
-    margin:0;
+	width: 90px!important;
+    	height: 20px;
+    	margin:0;
 	float: left;
 }
 
-.popupfb{
-	width: 120px!important;
-	margin-left: 0;
+.IN-widget{
+	margin-left:4px;
+
+}
+
+
+.fb_iframe_widget{
+	width: 130px;
+	display:inline-flex !important;
+	margin-left:10px;
 	float: left;
 }
 
@@ -959,6 +1008,20 @@ a .boxButton{
 	margin-bottom: 0;
 }
 
+.pluginCountButton{
+    visibility:collapse !important; 
+    
+}
+
+.pluginCountNum{
+    visibility:collapse !important; 
+    
+}
+
+.IN-right{
+   visibility:collapse !important;     
+}
+
 #asterisco{
 	width:98%;
 	padding:0 1%;
@@ -968,22 +1031,24 @@ a .boxButton{
 }
 
 .twitter-share-button{
-	width: 70px!important; 
-    height: 20px!important; 
-    margin:0;
+	width: 88px!important;
+    	height: 20px;
+    	margin:0;
 	float: left;
-}
-
-.popupfb{
-	width: 90px;
-	margin:0;
-	float: left;
+	margin-left:-5px;
 }
 
 .IN-widget{
-    width: 100px;
-    margin:0;
-	float: left;    
+	margin-left:10px;
+	width: 0px!important;
+
+}
+
+.fb_iframe_widget{
+	width: 98px;
+	display:inline-flex !important;
+	margin-left:-10px;
+	float: left;
 }
 
 
@@ -1001,6 +1066,7 @@ a .boxButton{
 .popupContent{
 	width: 260px;
 	padding: 10px 10px;
+    padding-bottom: 0px !important;
 }
 .popupTexto{
 	width: 260px;
