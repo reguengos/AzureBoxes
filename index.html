@@ -1,0 +1,1222 @@
+﻿
+
+<!Doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+<title>Galería de Soluciones de Azure</title>
+<link rel="stylesheet" href="styles.css">
+
+<script type="text/javascript">
+    var appInsights=window.appInsights||function(config){
+        function s(config){t[config]=function(){var i=arguments;t.queue.push(function(){t[config].apply(t,i)})}}var t={config:config},r=document,f=window,e="script",o=r.createElement(e),i,u;for(o.src=config.url||"//az416426.vo.msecnd.net/scripts/a/ai.0.js",r.getElementsByTagName(e)[0].parentNode.appendChild(o),t.cookie=r.cookie,t.queue=[],i=["Event","Exception","Metric","PageView","Trace"];i.length;)s("track"+i.pop());return config.disableExceptionTracking||(i="onerror",s("_"+i),u=f[i],f[i]=function(config,r,f,e,o){var s=u&&u(config,r,f,e,o);return s!==!0&&t["_"+i](config,r,f,e,o),s}),t
+    }({
+        instrumentationKey:"7007fad6-7f5e-47b2-acd8-dbba8aa173c8"
+    });
+    
+    window.appInsights=appInsights;
+    appInsights.trackPageView();
+</script>
+
+<script language="javascript" type="text/javascript" src="http://www.microsoft.com/click/services/rio.ashx?ootc=200464753" ></script>
+<script language="javascript" type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.1.min.js" ></script>
+
+<script>
+
+	function TrackClick(e){
+		$("#tracker").attr("src", $(e).attr("data-src"));
+		console.log($(e).attr("data-src"));
+	}
+
+</script>
+
+</head>
+
+<body>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script>
+
+<div id="containerMA">
+	<div id="header">
+		
+	</div>
+	
+
+	<div id="botonera">
+		<p>
+			¿Todavía no usas Microsoft Azure? Actívalo gratis, estas son las opciones:
+		</p>
+		<div id="botones">
+			<ul>
+				<a href="http://www.microsoft.com/click/services/Redirect2.ashx?CR_EAC=300206271" target="_blank"><li>FREE TRIAL</li></a>
+				<a href="http://www.microsoft.com/click/services/Redirect2.ashx?CR_EAC=300206272" target="_blank"><li>MSDN</li></a>
+				<a href="http://www.microsoft.com/click/services/Redirect2.ashx?CR_EAC=300206273" target="_blank"><li>BIZSPARK</li></a>
+			</ul>
+		</div>
+	</div>
+	<div id="utiliza">
+		Utilizá tu <strong>crédito de Microsoft Azure</strong> en los siguientes escenarios:
+	</div>
+	<div id="boxes">
+		<a href="#modal1" onclick="return TrackClick(this);" data-src="http://www.microsoft.com/click/services/Redirect2.ashx?CR_EAC=300206275">
+			<div class="box">
+				<div class="boxTitle">
+					SVN Server
+				</div>
+				<img src="images/box-01.jpg" />
+				<div class="boxContent">
+					<div class="boxTime">
+						30 min.
+					</div>
+					<div class="boxPrice1">
+						$23
+					</div>
+					<div class="boxPrice2">
+						$0*
+					</div>
+					<div class="clear"></div>
+					<div class="boxButton">
+						Comenzar
+					</div>
+				</div>
+			</div>
+		</a>
+		<a href="#modal2" onclick="return TrackClick(this);" data-src="http://www.microsoft.com/click/services/Redirect2.ashx?CR_EAC=300206265">
+			<div class="box medio dosCol">
+				<div class="boxTitle">
+					Sitio web con PHP, MySQL y FTP
+				</div>
+				<img src="images/box-02.jpg" />
+				<div class="boxContent">
+					<div class="boxTime">
+						15 min.
+					</div>
+					<div class="boxPrice1">
+						$12
+					</div>
+					<div class="boxPrice2">
+						$0*
+					</div>
+					<div class="clear"></div>
+					<div class="boxButton">
+						Comenzar
+					</div>
+				</div>
+			</div>
+		</a>
+		<a href="#modal3" onclick="return TrackClick(this);" data-src="http://www.microsoft.com/click/services/Redirect2.ashx?CR_EAC=300206267">
+			<div class="box">
+				<div class="boxTitle">
+					Pruebas de carga y stress
+				</div>
+				<img src="images/box-03.jpg" />
+				<div class="boxContent">
+					<div class="boxTime">
+						45 min.
+					</div>
+					<div class="boxPrice1">
+						$58
+					</div>
+					<div class="boxPrice2">
+						$0*
+					</div>
+					<div class="clear"></div>
+					<div class="boxButton">
+						Comenzar
+					</div>
+				</div>
+			</div>
+		</a>
+ 		<a href="#modal4" onclick="return TrackClick(this);" data-src="http://www.microsoft.com/click/services/Redirect2.ashx?CR_EAC=300206269">
+			<div class="box dosCol">
+				<div class="boxTitle">
+					Gana seguidores en Twitter
+				</div>
+				<img src="images/box-04.jpg" />
+				<div class="boxContent">
+					<div class="boxTime">
+						20 min.
+					</div>
+					<div class="boxPrice1">
+						$17
+					</div>
+					<div class="boxPrice2">
+						$0*
+					</div>
+					<div class="clear"></div>
+					<div class="boxButton">
+						Comenzar
+					</div>
+				</div>
+			</div>
+		</a>
+		<!-- TODO: CAMBIAR DATA SRC -->
+		<a href="#modal5" onclick="return TrackClick(this);" data-src="http://www.microsoft.com/click/services/Redirect2.ashx?CR_EAC=300206269">
+			<div class="box medio unaCol">
+			  <div class="boxTitle"><span class="boxTitle1">Backups manuales</span></div>
+				<img src="images/box-05.jpg" />
+				<div class="boxContent">
+					<div class="boxTime">
+						30 min.
+					</div>
+					<div class="boxPrice1">
+						$15
+					</div>
+					<div class="boxPrice2">
+						$0*
+					</div>
+					<div class="clear"></div>
+					<div class="boxButton">
+						Comenzar
+					</div>
+			  </div>
+			</div>
+	  </a>
+	  <!-- TODO: CAMBIAR DATA SRC -->
+	  <a href="#modal6" onclick="return TrackClick(this);" data-src="http://www.microsoft.com/click/services/Redirect2.ashx?CR_EAC=300206269">
+			<div class="box dosCol">
+			  <div class="boxTitle">Campaña de e-mail marketing</div>
+				<img src="images/box-06.jpg"/>
+				<div class="boxContent">
+					<div class="boxTime">
+						30 min.
+					</div>
+					<div class="boxPrice1">
+						$5
+					</div>
+					<div class="boxPrice2">
+						$0*
+					</div>
+					<div class="clear"></div>
+					<div class="boxButton">
+						Comenzar
+					</div>
+			  </div>
+			</div>
+		</a>
+        
+		<!-- TODO: CAMBIAR DATA SRC -->
+		<a href="#modal7" onclick="return TrackClick(this);" data-src="http://www.microsoft.com/click/services/Redirect2.ashx?CR_EAC=300206269">
+			<div class="box">
+				<div class="boxTitle">Joomla! en 15'</div>
+				<img src="images/box-07.jpg" />
+				<div class="boxContent">
+					<div class="boxTime">
+						15 min.
+					</div>
+					<div class="boxPrice1">
+						$0
+					</div>
+					<div class="boxPrice2">
+						$0*
+					</div>
+					<div class="clear"></div>
+					<div class="boxButton">
+						Comenzar
+					</div>
+				</div>
+			</div>
+		</a>
+		
+		<!-- TODO: CAMBIAR DATA SRC -->
+		<a href="#modal8" onclick="return TrackClick(this);" data-src="http://www.microsoft.com/click/services/Redirect2.ashx?CR_EAC=300206269">
+			<div class="box medio dosCol">
+			  <div class="boxTitle"><span class="boxTitle1">Servidor de Minecraft</span></div>
+				<img src="images/box-08.jpg" />
+				<div class="boxContent">
+					<div class="boxTime">
+						30 min.
+					</div>
+					<div class="boxPrice1">
+						$47
+					</div>
+					<div class="boxPrice2">
+						$0*
+					</div>
+					<div class="clear"></div>
+					<div class="boxButton">
+						Comenzar
+					</div>
+			  </div>
+			</div>
+	  </a>
+	  
+	  <!-- TODO: CAMBIAR DATA SRC -->
+	  <a href="#modal9" onclick="return TrackClick(this);" data-src="http://www.microsoft.com/click/services/Redirect2.ashx?CR_EAC=300206269">
+			<div class="box">
+			  <div class="boxTitle">Git server para tu código
+				</div>
+				<img src="images/box-09.jpg"/>
+				<div class="boxContent">
+					<div class="boxTime">
+						45 min.
+					</div>
+					<div class="boxPrice1">
+						$17
+					</div>
+					<div class="boxPrice2">
+						$0*
+					</div>
+					<div class="clear"></div>
+					<div class="boxButton">
+						Comenzar
+					</div>
+			  </div>
+			</div>
+		</a>
+		
+		<!-- TODO: CAMBIAR DATA SRC -->
+		<a href="#modal10" onclick="return TrackClick(this);" data-src="http://www.microsoft.com/click/services/Redirect2.ashx?CR_EAC=300206269">
+			<div class="box dosCol">
+				<div class="boxTitle">Ambiente LAMP</div>
+				<img src="images/box-01.jpg" />
+				<div class="boxContent">
+					<div class="boxTime">
+						40 min.
+					</div>
+					<div class="boxPrice1">
+						$60
+					</div>
+					<div class="boxPrice2">
+						$0*
+					</div>
+					<div class="clear"></div>
+					<div class="boxButton">
+						Comenzar
+					</div>
+				</div>
+			</div>
+		</a>
+		
+	  <!-- TODO: CAMBIAR DATA SRC -->
+	  <a href="#modal11"> <!-- onclick="return TrackClick(this);" data-src="http://www.microsoft.com/click/services/Redirect2.ashx?CR_EAC=300206269"> -->
+			<div class="box medio unaCol">
+			  <div class="boxTitle">BugNET para issue tracking</div>			  
+				<img src="images/box-02.jpg"/>
+				<div class="boxContent">
+					<div class="boxTime">
+						30 min.
+					</div>
+					<div class="boxPrice1">
+						$20
+					</div>
+					<div class="boxPrice2">
+						$0*
+					</div>
+					<div class="clear"></div>
+					<div class="boxButton">
+						Comenzar
+					</div>
+			  </div>
+			</div>
+		</a>
+		
+		<!-- TODO: CAMBIAR DATA SRC -->
+	   <a href="#modal12" onclick="return TrackClick(this);" data-src="http://www.microsoft.com/click/services/Redirect2.ashx?CR_EAC=300206269">
+			<div class="box dosCol">
+			  <div class="boxTitle">Desarrolla en la nube</div>                
+				<img src="images/box-06.jpg">
+				<div class="boxContent">
+					<div class="boxTime">
+						30 min.
+					</div>
+					<div class="boxPrice1">
+						$35
+					</div>
+					<div class="boxPrice2">
+						$0*
+					</div>
+					<div class="clear"></div>
+					<div class="boxButton">
+						Comenzar
+					</div>
+			  </div>
+			</div>
+		</a>
+
+              <!-- TODO: CAMBIAR DATA SRC -->
+        <a href="#modal13" onclick="return TrackClick(this);" data-src="http://www.microsoft.com/click/services/Redirect2.ashx?CR_EAC=300206269">
+			<div class="box">
+			  <div class="boxTitle">Clona/replica tu entorno en Azure</div>                 
+				<img src="images/box-08.jpg">
+				<div class="boxContent">
+					<div class="boxTime">
+						40 min.
+					</div>
+					<div class="boxPrice1">
+						$60
+					</div>
+					<div class="boxPrice2">
+						$0*
+					</div>
+					<div class="clear"></div>
+					<div class="boxButton">
+						Comenzar
+					</div>
+			  </div>
+			</div>
+		</a>
+
+        <!-- TODO: CAMBIAR DATA SRC -->
+	   <a href="#modal14" onclick="return TrackClick(this);" data-src="http://www.microsoft.com/click/services/Redirect2.ashx?CR_EAC=300206269">
+			<div class="box medio dosCol">
+			  <div class="boxTitle">Migra tu VM de AWS a Azure</div>  
+                <div style="background-color: white;position: relative;z-index: 5;width: 100%;height: 150px;top: 150px;margin-top: -150px;opacity: 0.7;"><p class="rotate" style="color: black;padding-top: 40px;padding-right: 40px;">próximamente</p></div>              
+				<img src="images/box-03.jpg">
+				<div class="boxContent">
+					<div class="boxTime">
+						20 min.
+					</div>
+					<div class="boxPrice1">
+						$25
+					</div>
+					<div class="boxPrice2">
+						$0*
+					</div>
+					<div class="clear"></div>
+					<div class="boxButton">
+						Comenzar
+					</div>
+			  </div>
+			</div>
+		</a>
+
+   
+
+         <!-- TODO: CAMBIAR DATA SRC -->
+	   <a href="#modal15" onclick="return TrackClick(this);" data-src="http://www.microsoft.com/click/services/Redirect2.ashx?CR_EAC=300206269">
+			<div class="box unaCol">
+			  <div class="boxTitle">Sube tu VMWare a Azure</div>  
+                <div style="background-color: white;position: relative;z-index: 5;width: 100%;height: 150px;top: 150px;margin-top: -150px;opacity: 0.7;"><p class="rotate" style="color: black;padding-top: 40px;padding-right: 40px;">próximamente</p></div>              
+				<img src="images/box-07.jpg">
+				<div class="boxContent">
+					<div class="boxTime">
+						20 min.
+					</div>
+					<div class="boxPrice1">
+						$25
+					</div>
+					<div class="boxPrice2">
+						$0*
+					</div>
+					<div class="clear"></div>
+					<div class="boxButton">
+						Comenzar
+					</div>
+			  </div>
+			</div>
+		</a>
+		
+		
+       <!-- TODO: CAMBIAR DATA SRC -->
+	   <a href="#modal16" onclick="return TrackClick(this);" data-src="http://www.microsoft.com/click/services/Redirect2.ashx?CR_EAC=300206269">
+			<div class="box dosCol">
+			  <div class="boxTitle">Mover archivos de AWS a Azure</div>  
+                <div style="background-color: white;position: relative;z-index: 5;width: 100%;height: 150px;top: 150px;margin-top: -150px;opacity: 0.7;"><p class="rotate" style="color: black;padding-top: 40px;padding-right: 40px;">próximamente</p></div>              
+				<img src="images/box-04.jpg">
+				<div class="boxContent">
+					<div class="boxTime">
+						20 min.
+					</div>
+					<div class="boxPrice1">
+						$25
+					</div>
+					<div class="boxPrice2">
+						$0*
+					</div>
+					<div class="clear"></div>
+					<div class="boxButton">
+						Comenzar
+					</div>
+			  </div>
+			</div>
+		</a>
+
+
+       <!-- TODO: CAMBIAR DATA SRC -->
+	   <a href="#modal17" onclick="return TrackClick(this);" data-src="http://www.microsoft.com/click/services/Redirect2.ashx?CR_EAC=300206269">
+			<div class="box medio">
+			  <div class="boxTitle">Migrar CDN de AWS a Azure</div>  
+                <div style="background-color: white;position: relative;z-index: 5;width: 100%;height: 150px;top: 150px;margin-top: -150px;opacity: 0.7;"><p class="rotate" style="color: black;padding-top: 40px;padding-right: 40px;">próximamente</p></div>              
+				<img src="images/box-05.jpg">
+				<div class="boxContent">
+					<div class="boxTime">
+						20 min.
+					</div>
+					<div class="boxPrice1">
+						$25
+					</div>
+					<div class="boxPrice2">
+						$0*
+					</div>
+					<div class="clear"></div>
+					<div class="boxButton">
+						Comenzar
+					</div>
+			  </div>
+			</div>
+		</a>
+
+   
+
+       <!-- TODO: CAMBIAR DATA SRC -->
+	   <a href="#modal18" onclick="return TrackClick(this);" data-src="http://www.microsoft.com/click/services/Redirect2.ashx?CR_EAC=300206269">
+			<div class="box dosCol">
+			  <div class="boxTitle">Sube tu máquina VMWare a Azure</div>  
+                <div style="background-color: white;position: relative;z-index: 5;width: 100%;height: 150px;top: 150px;margin-top: -150px;opacity: 0.7;"><p class="rotate" style="color: black;padding-top: 40px;padding-right: 40px;">próximamente</p></div>              
+				<img src="images/box-06.jpg">
+				<div class="boxContent">
+					<div class="boxTime">
+						20 min.
+					</div>
+					<div class="boxPrice1">
+						$25
+					</div>
+					<div class="boxPrice2">
+						$0*
+					</div>
+					<div class="clear"></div>
+					<div class="boxButton">
+						Comenzar
+					</div>
+			  </div>
+			</div>
+		</a>
+		
+		<!-- TODO: CAMBIAR DATA SRC -->
+	   <a href="#modal19" onclick="return TrackClick(this);" data-src="http://www.microsoft.com/click/services/Redirect2.ashx?CR_EAC=300206269">
+			<div class="box">
+			  <div class="boxTitle">Mover VMs de AppEngine a Azure</div>  
+                <div style="background-color: white;position: relative;z-index: 5;width: 100%;height: 150px;top: 150px;margin-top: -150px;opacity: 0.7;"><p class="rotate" style="color: black;padding-top: 40px;padding-right: 40px;">próximamente</p></div>              
+				<img src="images/box-01.jpg">
+				<div class="boxContent">
+					<div class="boxTime">
+						20 min.
+					</div>
+					<div class="boxPrice1">
+						$25
+					</div>
+					<div class="boxPrice2">
+						$0*
+					</div>
+					<div class="clear"></div>
+					<div class="boxButton">
+						Comenzar
+					</div>
+			  </div>
+			</div>
+		</a>
+
+
+        <!-- TODO: CAMBIAR DATA SRC -->
+	   <a href="#modal20" onclick="return TrackClick(this);" data-src="http://www.microsoft.com/click/services/Redirect2.ashx?CR_EAC=300206269">
+			<div class="box medio dosCol">
+			  <div class="boxTitle">Sube tu Hyper-V a Azure</div>  
+                <div style="background-color: white;position: relative;z-index: 5;width: 100%;height: 150px;top: 150px;margin-top: -150px;opacity: 0.7;"><p class="rotate" style="color: black;padding-top: 40px;padding-right: 40px;">próximamente</p></div>              
+				<img src="images/box-02.jpg">
+				<div class="boxContent">
+					<div class="boxTime">
+						20 min.
+					</div>
+					<div class="boxPrice1">
+						$25
+					</div>
+					<div class="boxPrice2">
+						$0*
+					</div>
+					<div class="clear"></div>
+					<div class="boxButton">
+						Comenzar
+					</div>
+			  </div>
+			</div>
+		</a>
+
+         <!-- TODO: CAMBIAR DATA SRC -->
+	   <a href="#modal21" onclick="return TrackClick(this);" data-src="http://www.microsoft.com/click/services/Redirect2.ashx?CR_EAC=300206269">
+			<div class="box ultimo">
+			  <div class="boxTitle">Sube tu VirtualBox a Azure</div>  
+                <div style="background-color: white;position: relative;z-index: 5;width: 100%;height: 150px;top: 150px;margin-top: -150px;opacity: 0.7;"><p class="rotate" style="color: black;padding-top: 40px;padding-right: 40px;">próximamente</p></div>              
+				<img src="images/box-03.jpg">
+				<div class="boxContent">
+					<div class="boxTime">
+						20 min.
+					</div>
+					<div class="boxPrice1">
+						$25
+					</div>
+					<div class="boxPrice2">
+						$0*
+					</div>
+					<div class="clear"></div>
+					<div class="boxButton">
+						Comenzar
+					</div>
+			  </div>
+			</div>
+		</a>
+
+        </div><!-- CIERRO CONTAINER -->
+
+	<div id="asterisco">*Los costos están estimados y expresados en dólares estadounidenses y varían en base a parámetros como tamaño de las unidades de cómputo, ancho de banda o almacenamiento utilizado. Aquellos subscriptores MSDN, miembros de BizSpark o usuarios con pases pueden utilizar estos servicios gratuitamente en caso de que cuenten con suficiente crédito otorgado por estos programas.</div>
+	<div id="footer">
+		<p>
+			© 2014 Microsoft
+		</p>
+		<ul>
+			<a href="http://www.microsoft.com/About/Legal/EN/US/IntellectualProperty/Trademarks/EN-US.aspx" target="_blank">
+				<li>Marcas Registradas</li>
+			</a>
+			<a href="http://www.microsoft.com/en-us/legal/intellectualproperty/copyright/default.aspx" target="_blank">
+				<li>Todos los productos de Windows</li>
+			</a>
+			<a href="http://www.microsoft.com/privacystatement/es-ar/core/default.aspx" target="_blank">
+				<li>Privacidad</li>
+			</a>
+			<a href="http://support.microsoft.com/contactus/?ln=es-ar" target="_blank">
+				<li>Contáctenos</li>
+			</a>
+		</ul>
+	</div>
+
+
+<!---    POP UP 1         -->
+
+<div id="modal1" class="modalmask">
+	<div class="modalbox movedown">
+		<div class="popup" style="background-image: url(images/POPUP1_B.jpg);">
+			<a href="#close" title="Close" class="close">X</a>
+			<div class="popupTitle">
+				SVN Server en la nube
+			</div>
+			<div class="popupContent">
+				<div class="popupTexto">
+					Esta guía explica, paso a paso, cómo <strong>instalar en 30 minutos un servidor SVN en una máquina virtual</strong> para utilizarla como repositorio de código en la Nube. El nivel de conocimiento para este curso es básico.
+				</div>
+				<div class="popupCuadro fondoVerde">
+					<p style="background-image: url(images/duracion.png);">
+						<strong>Duración:</strong> 30 minutos.
+					</p>
+					<p style="background-image: url(images/recursos.png);">
+						<strong>Recursos:</strong> 1 máquina virtual Windows.
+					</p>
+					<p style="background-image: url(images/costo.png);">
+						<strong>Costo para MSDN/Startups:</strong> $0.-
+					</p>
+					<p style="background-image: url(images/nivel.png);">
+						<strong>Nivel:</strong> básico.
+					</p>
+				</div>
+				<a href="http://www.microsoft.com/click/services/Redirect2.ashx?CR_EAC=300206264" target="_blank">
+					<div class="popupNegro">
+						IMPLEMENTAR
+					</div>
+				</a>
+
+		<div class="popupSocial">
+			<div class="fb-share-button" data-href="https://www.azureboxes.com" data-layout="button_count"></div>			
+			<a href="https://twitter.com/share" class="twitter-share-button" data-dnt="true">Tweet</a>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>	
+			<script src="//platform.linkedin.com/in.js" type="text/javascript">
+			  lang: es_ES
+			</script>
+			<script type="IN/Share" data-counter="right"></script>
+		</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- POP UP 2 -->
+
+<div id="modal2" class="modalmask">
+	<div class="modalbox movedown">
+		<div class="popup" style="background-image: url(images/POPUP2_B.jpg);">
+			<a href="#close" title="Close" class="close">X</a>
+			<div class="popupTitle">
+				Sitio web escalable con PHP y MySQL vía FTP
+			</div>
+			<div class="popupContent">
+				<div class="popupTexto">
+					Esta guía explica paso a paso <strong>cómo en 15 minutos montar en los servicios de Azure, un sitio web en tecnologías PHP y MySQL haciendo el despliegue vía FTP.</strong> Además, este sitio tendrá múltiples ventajas de la nube como escalabilidad, rápido aprovisionamiento, alta disponibilidad y tolerancia a fallos.
+				</div>
+				<div class="popupCuadro fondoVerde">
+					<p style="background-image: url(images/duracion.png);">
+						<strong>Duración:</strong> 15 minutos.
+					</p>
+					<p style="background-image: url(images/recursos.png);">
+						<strong>Recursos:</strong> 1 sitio web Azure 1, base de datos MySQL 
+					</p>
+					<p style="background-image: url(images/costo.png);">
+						<strong>Costo para MSDN/Startups:</strong> $0.-
+					</p>
+					<p style="background-image: url(images/nivel.png);">
+						<strong>Nivel:</strong> básico.
+					</p>
+				</div>
+				<a href="http://www.microsoft.com/click/services/Redirect2.ashx?CR_EAC=300206266" target="_blank">
+					<div class="popupNegro">
+						IMPLEMENTAR
+					</div>
+				</a>
+		<div class="popupSocial">
+			<iframe class="popupfb" src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FMicrosoftDeveloper.LatinAmerica&amp;width&amp;layout=button_count&amp;action=like&amp;show_faces=false&amp;share=false&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:21px;" allowTransparency="true"></iframe>
+			<a href="https://twitter.com/share" class="twitter-share-button" data-dnt="true">Tweet</a>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>	
+			<script src="//platform.linkedin.com/in.js" type="text/javascript">
+			  lang: es_ES
+			</script>
+			<script type="IN/Share" data-counter="right"></script>
+		</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- POP UP 3 -->
+
+<div id="modal3" class="modalmask">
+	<div class="modalbox movedown">
+		<div class="popup" style="background-image: url(images/POPUP3_B.jpg);">
+			<a href="#close" title="Close" class="close">X</a>
+			<div class="popupTitle">
+				Pruebas y cargas de stress desde Azure
+			</div>
+			<div class="popupContent">
+				<div class="popupTexto">
+					Esta guía explica paso a paso cómo rápidamente configurar un <strong>ambiente muy poderoso para ejecutar pruebas de stress o carga</strong>, sobre tu aplicación ya existente. La idea es conocer con detalle como se comporta la misma luega de una simulación de carga de cientos o miles de usuarios. 
+				</div>
+				<div class="popupCuadro fondoVerde">
+					<p style="background-image: url(images/duracion.png);">
+						<strong>Duración:</strong> 1 hora.
+					</p>
+					<p style="background-image: url(images/recursos.png);">
+						<strong>Recursos:</strong> 1 máquina virtual con Visual Studio Ultimate.
+					</p>
+					<p style="background-image: url(images/costo.png);">
+						<strong>Costo para MSDN/Startups:</strong> $0.-
+					</p>
+					<p style="background-image: url(images/nivel.png);">
+						<strong>Nivel:</strong> intermedio.
+					</p>
+				</div>
+				<a href="http://www.microsoft.com/click/services/Redirect2.ashx?CR_EAC=300206268" target="_blank">
+					<div class="popupNegro">
+						IMPLEMENTAR
+					</div>
+				</a>
+		
+		<div class="popupSocial">
+			<iframe class="popupfb" src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FMicrosoftDeveloper.LatinAmerica&amp;width&amp;layout=button_count&amp;action=like&amp;show_faces=false&amp;share=false&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:21px;" allowTransparency="true"></iframe>
+			<a href="https://twitter.com/share" class="twitter-share-button" data-dnt="true">Tweet</a>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>	
+			<script src="//platform.linkedin.com/in.js" type="text/javascript">
+			  lang: es_ES
+			</script>
+			<script type="IN/Share" data-counter="right"></script>
+		</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- POP UP 4 -->
+
+<div id="modal4" class="modalmask">
+	<div class="modalbox movedown">
+		<div class="popup" style="background-image: url(images/POPUP4_A.jpg);">
+			<a href="#close" title="Close" class="close">X</a>
+			<div class="popupTitle">
+				Ganá seguidores en Twitter
+			</div>
+			<div class="popupContent">
+				<div class="popupTexto">
+					Descarga y personaliza código corriendo en Azure para automatizar favoritos en Twitter basado en hashtags de tu interés, para ganar seguidores y potenciar tu alcance en redes sociales.
+				</div>
+				<div class="popupCuadro fondoVerde">
+					<p style="background-image: url(images/duracion.png);">
+						<strong>Duración:</strong> 20 minutos.
+					</p>
+					<p style="background-image: url(images/recursos.png);">
+						<strong>Recursos:</strong> 1 worker role, 1 cola.
+					</p>
+					<p style="background-image: url(images/costo.png);">
+						<strong>Costo para MSDN/Startups:</strong> $0.-
+					</p>
+					<p style="background-image: url(images/nivel.png);">
+						<strong>Nivel:</strong> básico.
+					</p>
+				</div>
+				<a href="http://www.microsoft.com/click/services/Redirect2.ashx?CR_EAC=300206270" target="_blank">
+					<div class="popupNegro">
+						IMPLEMENTAR
+					</div>
+				</a>
+	
+		<div class="popupSocial">
+			<iframe class="popupfb" src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FMicrosoftDeveloper.LatinAmerica&amp;width&amp;layout=button_count&amp;action=like&amp;show_faces=false&amp;share=false&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:21px;" allowTransparency="true"></iframe>
+			<a href="https://twitter.com/share" class="twitter-share-button" data-dnt="true">Tweet</a>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>	
+			<script src="//platform.linkedin.com/in.js" type="text/javascript">
+			  lang: es_ES
+			</script>
+			<script type="IN/Share" data-counter="right"></script>
+		</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- POP UP 5 -->
+
+<div id="modal5" class="modalmask">
+	<div class="modalbox movedown">
+		<div class="popup" style="background-image: url(images/POPUP5_A.jpg);">
+			<a href="#close" title="Close" class="close">X</a>
+			<div class="popupTitle">
+				Backups Manuales
+			</div>
+			<div class="popupContent">
+				<div class="popupTexto">
+					Aprovecha la infraestura de <strong>Azure</strong> para respaldar tu información. Aprovecha también características como alta disponibilidad y replicación geográfica. El nivel de conocimiento para este curso es básico.
+				</div>
+				<div class="popupCuadro fondoVerde">
+					<p style="background-image: url(images/duracion.png);">
+						<strong>Duración:</strong> 30 minutos.
+					</p>
+					<p style="background-image: url(images/recursos.png);">
+						<strong>Recursos:</strong> 1 cuenta de almacenamiento.
+					</p>
+					<p style="background-image: url(images/costo.png);">
+						<strong>Costo para MSDN/Startups:</strong> $0.-
+					</p>
+					<p style="background-image: url(images/nivel.png);">
+						<strong>Nivel:</strong> básico.
+					</p>
+				</div>
+				<a href="http://blogs.msdn.com/b/marcelofelman/archive/2014/08/28/backups-en-azure-mapear-un-blob-storage-como-network-drive.aspx" target="_blank">
+					<div class="popupNegro">
+						IMPLEMENTAR
+					</div>
+				</a>
+		
+		<div class="popupSocial">
+			<iframe class="popupfb" src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FMicrosoftDeveloper.LatinAmerica&amp;width&amp;layout=button_count&amp;action=like&amp;show_faces=false&amp;share=false&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:21px;" allowTransparency="true"></iframe>
+			<a href="https://twitter.com/share" class="twitter-share-button" data-dnt="true">Tweet</a>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>	
+			<script src="//platform.linkedin.com/in.js" type="text/javascript">
+			  lang: es_ES
+			</script>
+			<script type="IN/Share" data-counter="right"></script>
+		</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- POP UP 6 -->
+
+<div id="modal6" class="modalmask">
+	<div class="modalbox movedown">
+		<div class="popup" style="background-image: url(images/POPUP6_A.jpg);">
+			<a href="#close" title="Close" class="close">X</a>
+			<div class="popupTitle">
+				Campaña de E-mail Marketing
+			</div>
+			<div class="popupContent">
+				<div class="popupTexto">
+					Esta Azure Box te ayuda a armar <strong>tu propia campaña de e-mail marketing</strong> con todo el poder la Nube. El nivel de conocimiento para este curso es intermedio.
+				</div>
+				<div class="popupCuadro fondoVerde">
+					<p style="background-image: url(images/duracion.png);">
+						<strong>Duración:</strong> 90 minutos.
+					</p>
+					<p style="background-image: url(images/recursos.png);">
+						<strong>Recursos:</strong> una máquina con Visual Studio, una subscripción a SendGrid.
+					</p>
+					<p style="background-image: url(images/costo.png);">
+						<strong>Costo para MSDN/Startups:</strong> $0.-
+					</p>
+					<p style="background-image: url(images/nivel.png);">
+						<strong>Nivel:</strong> básico.
+					</p>
+				</div>
+				<a href="http://blogs.msdn.com/b/marcelofelman/archive/2014/10/22/campa-241-a-de-e-mail-marketing-con-sendgrid-en-azure.aspx" target="_blank">
+					<div class="popupNegro">
+						IMPLEMENTAR
+					</div>
+				</a>
+		
+		<div class="popupSocial">
+			<iframe class="popupfb" src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FMicrosoftDeveloper.LatinAmerica&amp;width&amp;layout=button_count&amp;action=like&amp;show_faces=false&amp;share=false&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:21px;" allowTransparency="true"></iframe>
+			<a href="https://twitter.com/share" class="twitter-share-button" data-dnt="true">Tweet</a>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>	
+			<script src="//platform.linkedin.com/in.js" type="text/javascript">
+			  lang: es_ES
+			</script>
+			<script type="IN/Share" data-counter="right"></script>
+		</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<!-- POP UP 7 -->
+
+<div id="modal7" class="modalmask">
+	<div class="modalbox movedown">
+	  <div class="popup" style="background-image: url(images/POPUP7_A.jpg);">
+			<a href="#close" title="Close" class="close">X</a>
+			<div class="popupTitle">
+				Joomla! en 15 minutos
+			</div>
+			<div class="popupContent">
+				<div class="popupTexto">
+					Esta guía explica, paso a paso, cómo <strong>instalar un gestor de contenido Joomla!</strong> para crear sitios web personalizables. El nivel de conocimiento para este curso es básico.
+				</div>
+				<div class="popupCuadro fondoVerde">
+					<p style="background-image: url(images/duracion.png);">
+						<strong>Duración:</strong> 15 minutos.
+					</p>
+					<p style="background-image: url(images/recursos.png);">
+						<strong>Recursos:</strong> 1 Sitio Web Azure.
+					</p>
+					<p style="background-image: url(images/costo.png);">
+						<strong>Costo para MSDN/Startups:</strong> $0.-
+					</p>
+					<p style="background-image: url(images/nivel.png);">
+						<strong>Nivel:</strong> básico.
+					</p>
+				</div>
+				<a href="http://blogs.msdn.com/b/marcelofelman/archive/2014/10/10/joomla-corriendo-en-azure-paas-en-15.aspx" target="_blank">
+					<div class="popupNegro">
+						IMPLEMENTAR
+					</div>
+				</a>
+
+		<div class="popupSocial">
+			<iframe class="popupfb" src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FMicrosoftDeveloper.LatinAmerica&amp;width&amp;layout=button_count&amp;action=like&amp;show_faces=false&amp;share=false&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:21px;" allowTransparency="true"></iframe>
+			<a href="https://twitter.com/share" class="twitter-share-button" data-dnt="true">Tweet</a>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>	
+			<script src="//platform.linkedin.com/in.js" type="text/javascript">
+			  lang: es_ES
+			</script>
+			<script type="IN/Share" data-counter="right"></script>
+		</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<!-- POP UP 8 -->
+
+<div id="modal8" class="modalmask">
+	<div class="modalbox movedown">
+	  <div class="popup" style="background-image: url(images/POPUP7_A.jpg);">
+			<a href="#close" title="Close" class="close">X</a>
+			<div class="popupTitle">
+				Servidor de Minecraft
+			</div>
+			<div class="popupContent">
+				<div class="popupTexto">
+					¿Te gustan los videojuegos? Aprende como <strong>montar un servidor de Minecraft</strong> en Azure para jugar online con tus compañeros o amigos. El nivel de conocimiento para este curso es básico.
+				</div>
+				<div class="popupCuadro fondoVerde">
+					<p style="background-image: url(images/duracion.png);">
+						<strong>Duración:</strong> 30 minutos.
+					</p>
+					<p style="background-image: url(images/recursos.png);">
+						<strong>Recursos:</strong> 1 máquina virtual Windows.
+					</p>
+					<p style="background-image: url(images/costo.png);">
+						<strong>Costo para MSDN/Startups:</strong> $0.-
+					</p>
+					<p style="background-image: url(images/nivel.png);">
+						<strong>Nivel:</strong> básico.
+					</p>
+				</div>
+				<a href="http://blogs.msdn.com/b/marcelofelman/archive/2014/10/07/minecraft-server-corriendo-en-azure-iaas.aspx" target="_blank">
+					<div class="popupNegro">
+						IMPLEMENTAR
+					</div>
+				</a>
+	
+		<div class="popupSocial">
+			<iframe class="popupfb" src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FMicrosoftDeveloper.LatinAmerica&amp;width&amp;layout=button_count&amp;action=like&amp;show_faces=false&amp;share=false&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:21px;" allowTransparency="true"></iframe>
+			<a href="https://twitter.com/share" class="twitter-share-button" data-dnt="true">Tweet</a>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>	
+			<script src="//platform.linkedin.com/in.js" type="text/javascript">
+			  lang: es_ES
+			</script>
+			<script type="IN/Share" data-counter="right"></script>
+		</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- POP UP 9 -->
+
+
+<div id="modal9" class="modalmask">
+	<div class="modalbox movedown">
+	  <div class="popup" style="background-image: url(images/POPUP7_A.jpg);">
+			<a href="#close" title="Close" class="close">X</a>
+			<div class="popupTitle">
+				Git Server para tu Código
+			</div>
+			<div class="popupContent">
+				<div class="popupTexto">
+					¿Usas Git? ¿Estás pagando? <strong>Aprovecha tus beneficios en Azure y monta tu propio server</strong> para utilizar como repositorio de código en la Nube. El nivel de conocimiento para este curso es básico.
+				</div>
+				<div class="popupCuadro fondoVerde">
+					<p style="background-image: url(images/duracion.png);">
+						<strong>Duración:</strong> 45 minutos.
+					</p>
+					<p style="background-image: url(images/recursos.png);">
+						<strong>Recursos:</strong> 1 máquina virtual Linux.
+					</p>
+					<p style="background-image: url(images/costo.png);">
+						<strong>Costo para MSDN/Startups:</strong> $0.-
+					</p>
+					<p style="background-image: url(images/nivel.png);">
+						<strong>Nivel:</strong> básico.
+					</p>
+				</div>
+				<a href="http://blogs.msdn.com/b/marcelofelman/archive/2014/10/22/git-server-corriendo-en-azure-iaas-ubuntu.aspx" target="_blank">
+					<div class="popupNegro">
+						IMPLEMENTAR
+					</div>
+				</a>
+
+		<div class="popupSocial">
+			<iframe class="popupfb" src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FMicrosoftDeveloper.LatinAmerica&amp;width&amp;layout=button_count&amp;action=like&amp;show_faces=false&amp;share=false&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:21px;" allowTransparency="true"></iframe>
+			<a href="https://twitter.com/share" class="twitter-share-button" data-dnt="true">Tweet</a>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>	
+			<script src="//platform.linkedin.com/in.js" type="text/javascript">
+			  lang: es_ES
+			</script>
+			<script type="IN/Share" data-counter="right"></script>
+		</div>
+					</div>
+				</div>
+			</div>
+</div>
+				
+<!-- POP UP 10 -->
+
+<div id="modal10" class="modalmask">
+	<div class="modalbox movedown">
+	  <div class="popup" style="background-image: url(images/POPUP7_A.jpg);">
+			<a href="#close" title="Close" class="close">X</a>
+			<div class="popupTitle">
+				Ambiente Lamp en la Nube
+			</div>
+			<div class="popupContent">
+				<div class="popupTexto">
+					¿Tecnologías abiertas? <strong>Azure es heterogéneo.</strong> Levanta rápidamente un ambiente con Linux, Apache, MySQL y PHP. El nivel de conocimiento para este curso es intermedio.
+				</div>
+				<div class="popupCuadro fondoVerde">
+					<p style="background-image: url(images/duracion.png);">
+						<strong>Duración:</strong> 40 minutos.
+					</p>
+					<p style="background-image: url(images/recursos.png);">
+						<strong>Recursos:</strong> 1 máquina virtual Linux.
+					</p>
+					<p style="background-image: url(images/costo.png);">
+						<strong>Costo para MSDN/Startups:</strong> $0.-
+					</p>
+					<p style="background-image: url(images/nivel.png);">
+						<strong>Nivel:</strong> intermedio.
+					</p>
+				</div>
+				<a href="http://blogs.msdn.com/b/marcelofelman/archive/2014/11/07/ambiente-lamp-linux-apache-mysql-php-en-azure-iaas.aspx" target="_blank">
+					<div class="popupNegro">
+						IMPLEMENTAR
+					</div>
+				</a>
+				
+		<div class="popupSocial">
+			<iframe class="popupfb" src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FMicrosoftDeveloper.LatinAmerica&amp;width&amp;layout=button_count&amp;action=like&amp;show_faces=false&amp;share=false&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:21px;" allowTransparency="true"></iframe>
+			<a href="https://twitter.com/share" class="twitter-share-button" data-dnt="true">Tweet</a>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>	
+			<script src="//platform.linkedin.com/in.js" type="text/javascript">
+			  lang: es_ES
+			</script>
+			<script type="IN/Share" data-counter="right"></script>
+		</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+    <!-- POP UP 11 -->
+
+<div id="modal11" class="modalmask">
+	<div class="modalbox movedown">
+	  <div class="popup" style="background-image: url(images/POPUP2_B.jpg);">
+			<a href="#close" title="Close" class="close">X</a>
+			<div class="popupTitle">
+				BugNET en Azure
+			</div>
+			<div class="popupContent">
+				<div class="popupTexto">
+					¿Queres un control de tickets? <strong>Azure es heterogéneo.</strong> Levanta rápidamente un sistema de seguimiento para proyectos. El nivel de conocimiento para este curso es básico.
+				</div>
+				<div class="popupCuadro fondoVerde">
+					<p style="background-image: url(images/duracion.png);">
+						<strong>Duración:</strong> 30 minutos.
+					</p>
+					<p style="background-image: url(images/recursos.png);">
+						<strong>Recursos:</strong> 1 Azure Website.
+					</p>
+					<p style="background-image: url(images/costo.png);">
+						<strong>Costo para MSDN/Startups:</strong> $0.-
+					</p>
+					<p style="background-image: url(images/nivel.png);">
+						<strong>Nivel:</strong> básico.
+					</p>
+				</div>
+				<a href="https://branstraub.wordpress.com/2014/11/13/bugnet-en-microsoft-azure" target="_blank">
+					<div class="popupNegro">
+						IMPLEMENTAR
+					</div>
+				</a>
+				
+		<div class="popupSocial">
+			<iframe class="popupfb" src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FMicrosoftDeveloper.LatinAmerica&amp;width&amp;layout=button_count&amp;action=like&amp;show_faces=false&amp;share=false&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:21px;" allowTransparency="true"></iframe>
+			<a href="https://twitter.com/share" class="twitter-share-button" data-dnt="true">Tweet</a>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>	
+			<script src="//platform.linkedin.com/in.js" type="text/javascript">
+			  lang: es_ES
+			</script>
+			<script type="IN/Share" data-counter="right"></script>
+		</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+        <!-- POP UP 12 -->
+
+<div id="modal12" class="modalmask">
+	<div class="modalbox movedown">
+	  <div class="popup" style="background-image: url(images/POPUP6_A.jpg);">
+			<a href="#close" title="Close" class="close">X</a>
+			<div class="popupTitle">
+				Desarrolla en la nube
+			</div>
+			<div class="popupContent">
+				<div class="popupTexto">
+					¿Querés desarrollar con en un ambiente virtual? Levanta rápidamente tu VM con Windows Server 2012 R2 y Visual Studio. El nivel de conocimiento para este curso es básico.
+				</div>
+				<div class="popupCuadro fondoVerde">
+					<p style="background-image: url(images/duracion.png);">
+						<strong>Duración:</strong> 30 minutos.
+					</p>
+					<p style="background-image: url(images/recursos.png);">
+						<strong>Recursos:</strong> 1 máquina virtual Windows.
+					</p>
+					<p style="background-image: url(images/costo.png);">
+						<strong>Costo para MSDN/Startups:</strong> $0.-
+					</p>
+					<p style="background-image: url(images/nivel.png);">
+						<strong>Nivel:</strong> básico.
+					</p>
+				</div>
+				<a href="http://blog.alebanzas.com.ar/2014/11/crea-tu-ambiente-de-desarrollo-en-la-nube/" target="_blank">
+					<div class="popupNegro">
+						IMPLEMENTAR
+					</div>
+				</a>
+				
+		<div class="popupSocial">
+			<iframe class="popupfb" src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FMicrosoftDeveloper.LatinAmerica&amp;width&amp;layout=button_count&amp;action=like&amp;show_faces=false&amp;share=false&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:21px;" allowTransparency="true"></iframe>
+			<a href="https://twitter.com/share" class="twitter-share-button" data-dnt="true">Tweet</a>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>	
+			<script src="//platform.linkedin.com/in.js" type="text/javascript">
+			  lang: es_ES
+			</script>
+			<script type="IN/Share" data-counter="right"></script>
+		</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+                <!-- POP UP 13 -->
+
+<div id="modal13" class="modalmask">
+	<div class="modalbox movedown">
+	  <div class="popup" style="background-image: url(images/POPUP7_A.jpg);">
+			<a href="#close" title="Close" class="close">X</a>
+			<div class="popupTitle">
+				Clona o replica tu entorno en Azure
+			</div>
+			<div class="popupContent">
+				<div class="popupTexto">
+					¿Quieres replicar tu entorno de desarrollo? Podes copiarlo, clonarlo o moverlo muy fácilmente con Azure. El conocimiento requerido para este curso es intermedio.
+				</div>
+				<div class="popupCuadro fondoVerde">
+					<p style="background-image: url(images/duracion.png);">
+						<strong>Duración:</strong> 40 minutos.
+					</p>
+					<p style="background-image: url(images/recursos.png);">
+						<strong>Recursos:</strong> 2 máquinas virtuales.
+					</p>
+					<p style="background-image: url(images/costo.png);">
+						<strong>Costo para MSDN/Startups:</strong> $0.-
+					</p>
+					<p style="background-image: url(images/nivel.png);">
+						<strong>Nivel:</strong> intermedio.
+					</p>
+				</div>
+				<a href="https://branstraub.wordpress.com/2014/11/17/replicando-tu-entorno-en-azure/" target="_blank">
+					<div class="popupNegro">
+						IMPLEMENTAR
+					</div>
+				</a>
+				
+		<div class="popupSocial">
+			<iframe class="popupfb" src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FMicrosoftDeveloper.LatinAmerica&amp;width&amp;layout=button_count&amp;action=like&amp;show_faces=false&amp;share=false&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:21px;" allowTransparency="true"></iframe>
+			<a href="https://twitter.com/share" class="twitter-share-button" data-dnt="true">Tweet</a>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>	
+			<script src="//platform.linkedin.com/in.js" type="text/javascript">
+			  lang: es_ES
+			</script>
+			<script type="IN/Share" data-counter="right"></script>
+		</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+      
+
+
+
+<!-- WEDECS CODE -->
+<script type="text/JavaScript"> 
+var varSegmentation = 0; 
+var varClickTracking = 1; 
+var varCustomerTracking = 1; 
+var varAutoFirePV = 1; 
+var Route = ""; 
+var Ctrl = ""; 
+document.write("<script type='text/javascript' src='" + (window.location.protocol) + "//c.microsoft.com/ms.js'" + "'><\/script>"); 
+</script> 
+<noscript><img alt="" width="1" height="1" src="http://c.microsoft.com/trans_pixel.aspx"/></noscript> 
+<!-- WEDECS CODE -->
+</body>
+</html>

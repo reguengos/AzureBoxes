@@ -1,0 +1,1059 @@
+<style type="text/css">
+body{
+	padding: 0;
+	margin: 0;
+}
+.clear{
+	clear: both;
+}
+#containerMA p{
+	padding: 0;
+	margin: 0;
+}
+#containerMA img{
+	border: none;
+	margin: 0;
+}
+#containerMA a{
+	text-decoration: none;
+	color: #fff;
+	margin: 0;
+}
+
+#containerMA{
+	width: 1280px;
+	height: auto;
+	overflow: hidden;
+	margin: 0 auto;
+	font-family: "Segoe UI Light", Tahoma, Helvetica;
+	font-size: 16px;
+}
+
+#containerMA #header{
+	width: 100%;
+	height: 435px;
+	overflow: hidden;
+	float: left;
+	background-image: url(images/banner.jpg);
+	background-repeat: repeat-x;
+	background-position: center top;
+	margin-bottom: 60px;
+}
+
+#botonera{
+	width: 1000px;
+	margin: 0 auto;
+	height:auto;
+	padding: 10px 20px;
+	overflow: hidden;
+	background-color: #7fba00;
+	color: #fff;
+	margin: 40px auto 0 auto; 
+	text-align: center;
+}
+
+ul{
+	list-style-type:none;
+	padding: 0;
+	margin: 10px 0 0 0;
+	height: auto;
+	overflow: hidden;
+}
+#botonera li{
+
+	background-color: #bad80a;
+	padding: 5%;
+}
+#botonera a{
+	width: 120px;
+	padding: 5px;
+	margin: 0 10px;
+	float: left;
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;
+	font-family: "Segoe UI", Tahoma, Helvetica;
+}
+#botones{
+	padding: 0px 270px;
+	margin: 0 auto;
+}
+#utiliza{
+	width: 96%;
+	min-width:240px;
+	max-width:1020px;
+	background-color: #000;
+	text-align: center;
+	padding: 1% 10px;
+	color: #fff;
+	font-size: 28px;
+	margin: 40px auto 0 auto;
+}
+
+#boxes{
+	width:1040px;
+	height: auto;
+	overflow: hidden;
+	text-align: center;
+	color: #fff;
+	font-size: 28px;
+	margin: 40px auto 0 auto;
+	font-family: "Segoe UI", Tahoma, Helvetica;
+	font-size: 18px;
+	font-weight: bold;
+}
+.box{
+	width: 300px;
+	margin-bottom: 25px;
+	height: auto;
+	overflow: hidden;
+	float: left;
+}
+.boxTitle{
+	width: 300px;
+	height: auto;
+	overflow: hidden;
+	background-color: #000;
+	padding: 5px 0;
+}
+.box img{
+	width: 100px;
+	height: auto;
+	overflow: hidden;
+	float: left;
+}
+.boxContent{
+	width: 155px;
+	height: 125px;
+	overflow: hidden;
+	background-color: #00bcf2;
+	float: left;
+	padding: 15px 20px 0 25px;
+	text-align: left;
+}
+.boxTime{
+	width: 100%;
+	height: auto;
+	min-height: 35px;
+	overflow: hidden;
+	font-size: 25px;
+	background-image: url(images/time.png);
+	background-position: left center;
+	background-repeat: no-repeat;
+	padding-left: 50px;
+	float: left;
+}
+.boxPrice1{
+	width: 50%;
+	height: auto;
+	overflow: hidden;
+	padding-top: 10px;
+	color: #000;
+	font-size: 18px;
+	text-decoration: line-through;
+	font-weight: normal;
+	float: left;
+}
+.boxPrice2{
+	width: 50%;
+	height: auto;
+	overflow: hidden;
+	padding-top: 5px;
+	text-align: right;
+	font-size: 32px;
+	float: left;
+	line-height: 32px;
+}
+a .boxButton{
+	width: 94%;
+	height: auto;
+	min-height: 20px;
+	overflow: hidden;
+	font-size: 17px;
+	background-color: #000;
+	background-image: url(images/arrow-right.png);
+	background-position: 125px center;
+	background-repeat: no-repeat;
+	background-size: 20px;
+	font-weight: normal;
+	padding:5px 0 5px 6%;
+	float: left;
+	margin-top: 10px;
+}
+.medio{
+	margin: 0 70px;
+}
+#footer{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	float: left;
+	background-image: url(images/footer.jpg);
+	background-size: 100%;
+	background-repeat: repeat-x;
+	background-position: center top;
+	background-color: #d2d2d2;
+	padding-top: 111px;
+	margin-top: 30px;
+	color: #717171;
+	font-size: 10px;
+}
+#footer a{
+	color: #5d93cd;
+}
+#footer li{
+	margin-right: 15px;
+	padding: 10px 0;
+	width: auto;
+	height: auto;
+	overflow: hidden;
+	float: right;
+}
+#footer ul{
+	margin: 0;
+	float: right;
+}
+#footer p{
+	float: left;
+	width: auto;
+	padding: 10px 0 10px 80px;
+	background-image: url(images/microsoft.jpg);
+	background-repeat: no-repeat;
+	background-position: left middle;
+	background-position: 10px;
+}
+
+.close {
+    background: #606061;
+    color: #FFFFFF;
+    line-height: 25px;
+    position: absolute;
+    right: 1px;
+    text-align: center;
+    top: 1px;
+    width: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius:3px;
+ 
+}
+ 
+.close:hover { 
+    background: #FAAC58; 
+    color:#222;
+}
+
+.rotate {
+
+-webkit-transform: rotate(-45deg);
+-moz-transform: rotate(-45deg);
+-ms-transform: rotate(-45deg);
+-o-transform: rotate(-45deg);
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+
+}
+
+#asterisco{
+	width:86%;
+	padding:0 7%;
+	color: #717171;
+	font-size: 12px;
+}
+
+/* -------------------------- POPUP ----------------------------*/
+
+.popup{
+	width: 562px;
+	height: auto;
+	overflow: hidden;
+	padding-top: 102px;
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-color: #fff;
+	color: #1b1b1a;
+	font-size: 15px;
+	font-family: "Segoe UI", Tahoma, Helvetica;
+}
+
+.popupTitle{
+	width: 562px;
+	height: auto;
+	overflow: hidden;
+	background-color: #000;
+	color: #fff;
+	padding: 5px 0;
+	font-weight: bold;
+	text-align: center;
+	font-size: 21px;
+}
+.popupContent{
+	width: 512px;
+	height: auto;
+	overflow: hidden;
+	padding: 15px 25px;
+	background-color: #d2d2d2;
+}
+.popupTexto{
+	width: 275px;
+	float: left;
+	padding-right: 25px;
+}
+
+.popupCuadro{
+	width: 192px;
+	float: left;
+	padding: 8px 10px;
+	color: #fff;
+	font-size: 10px;
+	margin-top: 0px
+}
+.popupCuadro p{
+	background-repeat: no-repeat;
+	background-position:  left center;
+	background-size: 15px;
+	min-height: 15px;
+	height: auto;
+	overflow: hidden;
+	padding: 0 0 0 20px !important;
+	margin-top: 5px;
+	display: inline-block;
+}
+.fondoVerde{
+	background-color: #94c11e;
+}
+.fondoCeleste{
+	background-color: #00bcf2;
+}
+.popupNegro{
+	width: 192px;
+	float: left;
+	padding: 8px 10px;
+	background-color: #000;
+	color: #fff;
+	font-weight: bold;
+	font-size: 12px;
+	margin-top: 5px;
+	background-image: url(images/arrow-right.png);
+	background-repeat: no-repeat;
+	background-position:  182px center;
+	background-size: 20px;
+}
+.popupSocial{
+	width: auto;
+	float: right;
+	padding: 0;
+	margin-top: 20px;
+	}
+
+.twitter-share-button{
+	width: 70px;
+    height: 20px;
+    margin:0;
+	float: left;
+}
+
+.popupfb{
+	width: 130px;
+	margin:0;
+	float: left;
+}
+
+.popupNegro a{
+	color: #fff;
+	text-decoration: none;
+}
+.popupFooter{
+	width: 510px;
+	height: auto;
+	overflow: hidden;
+	padding: 15px 26px;
+	font-weight: bold;
+	font-size: 15px;
+}
+.textoVerde{
+	color: #94c11e;
+}
+.textoCeleste{
+	color: #00bcf2
+}
+.popupFooter p{
+	margin-bottom: 10px !important;
+}
+.popupFooter img{
+	width: 98px;
+	height: auto;
+}
+
+
+/* ----------------------- EFECTO POPUP --------------------------*/
+
+.modalmask {
+    position: fixed;
+    font-family: Arial, sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+    z-index: 99999;
+    opacity:0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+.modalmask:target {
+    opacity:1;
+    pointer-events: auto;
+}
+
+.modalbox{
+    width: 562px;
+    position: relative;
+    padding: 0;
+    background: #fff;
+    border-radius:3px;
+    -webkit-transition: all 500ms ease-in;
+    -moz-transition: all 500ms ease-in;
+    transition: all 500ms ease-in;
+     
+}
+
+.movedown {
+    margin: 0 auto;
+}
+.modalmask:target .movedown{        
+    margin:10% auto;
+}
+
+
+/* -------------------------- RESPONSIVE ----------------------------- */
+
+
+/* ------------------------------------- 1024px ------------------------------------- */
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+#containerMA{
+	width: 940px;
+	height: auto;
+	overflow: hidden;
+	margin: 0 auto;
+	font-family: "Segoe UI Light", Tahoma, Helvetica;
+	font-size: 16px;
+}
+
+#containerMA #header{
+	width: 940px;
+	overflow: hidden;
+	float: left;
+	background-image: url(images/banner.jpg);
+	background-size: 940px;
+	background-repeat: repeat-x;
+	background-position:left top;
+	margin-bottom:-65px;
+}
+
+#botonera{
+	width: 940px;
+	margin: 0 auto;
+	height:auto;
+	padding: 10px 40px;
+	overflow: hidden;
+	background-color: #7fba00;
+	color: #fff;
+	text-align: center;
+}
+
+ul{
+	list-style-type:none;
+	padding: 0;
+	margin: 10px 0 0 0;
+	height: auto;
+	overflow: hidden;
+}
+#botonera li{
+
+	background-color: #bad80a;
+	padding: 5%;
+}
+#botonera a{
+	min-width: ;
+	width: 120px;
+	padding: 5px;
+	margin: 0 10px;
+	float: left;
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;
+	font-family: "Segoe UI", Tahoma, Helvetica;
+}
+#botones{
+	padding: 0 245px;
+}
+
+#boxes{
+	width:980px;
+	height: auto;
+	overflow: hidden;
+	text-align: center;
+	color: #fff;
+	font-size: 28px;
+	margin: 40px auto 0 auto;
+	font-family: "Segoe UI", Tahoma, Helvetica;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.medio{
+	margin: 0 40px;
+}
+
+.box{
+	width: 300px;
+	margin-bottom: 25px;
+	margin-left: 8px;
+    margin-right: 4px;
+    height: auto;
+	overflow: hidden;
+	float: left;
+}
+
+
+#footer{
+	background-size: auto;
+}
+
+#asterisco{
+	width:98%;
+	padding:0 1%;
+	color: #717171;
+	font-size: 12px;
+}
+
+}
+
+
+/* ------------------------------------- 768px ------------------------------------- */
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+#containerMA{
+	width: 720px;
+	height: auto;
+	overflow: hidden;
+	margin: 0 auto;
+	font-family: "Segoe UI Light", Tahoma, Helvetica;
+	font-size: 16px;
+}
+
+#containerMA #header{
+	width: 720px;
+	background-size: 720px;
+	overflow: hidden;
+	float: left;
+	background-image: url(images/banner.jpg);
+	background-repeat: repeat-x;
+	background-position: left top;
+	margin-bottom: -160px;
+}
+
+#botonera{
+	width: 740px;
+	margin: 0 auto;
+	height:auto;
+	padding: 10px 0px;
+	overflow: hidden;
+	background-color: #7fba00;
+	color: #fff;
+	text-align: center;
+}
+
+ul{
+	list-style-type:none;
+	padding: 0;
+	margin: 10px auto 0 auto;
+	height: auto;
+	overflow: hidden;
+}
+#botonera li{
+
+	background-color: #bad80a;
+	padding: 5%;
+}
+#botonera a{
+	min-width: ;
+	width: 120px;
+	padding: 5px;
+	margin: 0 10px;
+	float: left;
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;
+	font-family: "Segoe UI", Tahoma, Helvetica;
+}
+#botones{
+	padding: 0px 0px 0px 160px;
+}
+
+#boxes{
+	width:620px;
+	height: auto;
+	overflow: hidden;
+	text-align: center;
+	color: #fff;
+	font-size: 28px;
+	margin: 40px 50px 25px 50px;
+	font-family: "Segoe UI", Tahoma, Helvetica;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.medio{
+	margin: 0px;
+}
+
+
+.dosCol{
+	margin: 0 0 25px 20px;
+
+}
+
+#footer{
+	background-size: auto;
+}
+
+#asterisco{
+	width:86%;
+	padding:0 7%;
+	color: #717171;
+	font-size: 12px;
+}
+
+.twitter-share-button{
+	width: 110px!important; 
+    height: 20px!important; 
+    margin:0;
+	float: left;
+}
+
+.popupfb{
+	width: 130px;
+	margin:0;
+	float: left;
+}
+
+}
+
+
+/* ------------------------------------- 480px ------------------------------------- */
+
+@media screen and (min-width: 321px) and (max-width: 480px){
+#containerMA{
+	width: 400px;
+	height: auto;
+	overflow: hidden;
+	margin: 0 auto;
+	font-family: "Segoe UI Light", Tahoma, Helvetica;
+	font-size: 16px;
+}
+
+
+
+#containerMA #header{
+	width: 100%;
+	height: 340px;
+	overflow: hidden;
+	float: left;
+	background-image: url(images/banner2.jpg);
+	background-repeat: repeat-x;
+	background-position: center top;
+	margin-bottom: 15px;
+	background-size: 100%;
+}
+
+#botonera{
+	width: 360px;
+	margin: 0 auto;
+	height:auto;
+	padding: 10px 20px;
+	overflow: hidden;
+	background-color: #7fba00;
+	color: #fff;
+	text-align: center;
+}
+
+ul{
+	list-style-type:none;
+	padding: 0;
+	margin: 10px auto 0 auto;
+	height: auto;
+	overflow: hidden;
+}
+#botonera li{
+
+	background-color: #bad80a;
+	padding: 5px;
+}
+#botonera a{
+	min-width: ;
+	width: 90%;
+	padding: 5px;
+	margin: 0;
+	float: left;
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;
+	font-family: "Segoe UI", Tahoma, Helvetica;
+}
+#botones{
+	padding: 0 100px;
+}
+#boxes{
+	width:300px;
+	height: auto;
+	overflow: hidden;
+	text-align: center;
+	color: #fff;
+	font-size: 28px;
+	margin: 40px 50px 0px 50px;
+	font-family: "Segoe UI", Tahoma, Helvetica;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.medio{
+	margin: 0;
+}
+
+
+.dosCol{
+	margin: 0 0 25px 0;
+
+}
+
+.unaCol{
+	margin: 0 0 25px 0;
+
+}
+#footer{
+	background-size: auto;
+	margin-top: 0;
+}
+
+#utiliza{
+	margin-top: 15px;
+}
+
+.twitter-share-button{
+	width: 110px!important; 
+    height: 20px!important; 
+    margin:0;
+	float: left;
+}
+
+.popupfb{
+	width: 120px!important;
+	margin-left: 0;
+	float: left;
+}
+
+
+
+
+/* -------------------------- POPUP ----------------------------*/
+
+.popup{
+	width: 400px;
+	padding-top: 102px;
+}
+
+.popupTitle{
+	width: 400px;
+}
+.popupContent{
+	width: 350px;
+	padding: 15px 25px;
+}
+.popupTexto{
+	width: 350px;
+	padding-right: 0;
+}
+
+.popupCuadro{
+	width: 310px;
+	padding: 8px 20px;
+	margin-top: 10px;
+	font-size: 13px;
+}
+.popupCuadro p{
+	background-repeat: no-repeat;
+	background-position:  left center;
+	background-size: 15px;
+	min-height: 18px;
+	height: auto;
+	overflow: hidden;
+	padding: 0 0 0 20px !important;
+	margin-top: 5px;
+	display: inline-block;
+}
+.popupNegro{
+	width: 330px;
+	background-position:  320px center;
+}
+.popupFooter{
+	width: 350px;
+	padding: 15px 25px;
+}
+.popupFooter p{
+	margin-bottom: 10px !important;
+}
+.popupFooter img{
+	width: 66px;
+	height: auto;
+}
+
+
+.modalbox{
+    width: 400px;
+}
+
+
+
+}
+
+
+/* ------------------------------------- 320px ------------------------------------- */
+
+@media screen and (min-width: 50px) and (max-width: 320px){
+#containerMA{
+	width: 280px;
+	height: auto;
+	overflow: hidden;
+	margin: 0 auto;
+	font-family: "Segoe UI Light", Tahoma, Helvetica;
+	font-size: 16px;
+}
+
+#containerMA #header{
+	width: 100%;
+	height: 260px;
+	overflow: hidden;
+	float: left;
+	background-image: url(images/banner2.jpg);
+	background-repeat: repeat-x;
+	background-position: center top;
+	margin-bottom: 0px;
+	background-size: 100%;
+}
+
+ul{
+	list-style-type:none;
+	padding: 0;
+	margin: 10px auto 0 auto;
+	height: auto;
+	overflow: hidden;
+}
+#botonera li{
+
+	background-color: #bad80a;
+	padding: 5px;
+}
+#botonera a{
+	min-width: ;
+	width: 100%;
+	padding: 5px;
+	margin: 0;
+	float: left;
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;
+	font-family: "Segoe UI", Tahoma, Helvetica;
+}
+
+#botonera {
+        width: auto;
+        margin: 0 auto;
+        height: auto;
+        overflow: hidden;
+        background-color: #7fba00;
+        color: #fff;
+        margin: 40px auto 0 auto;
+        text-align: center;
+} 
+
+#botones{
+	padding: 0px 0px;
+}
+
+#boxes{
+	width:280px;
+	height: auto;
+	overflow: hidden;
+	text-align: center;
+	color: #fff;
+	font-size: 28px;
+	margin: 40px 0 0 0;
+	font-family: "Segoe UI", Tahoma, Helvetica;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.medio{
+	margin: 0;
+}
+
+
+.dosCol{
+	margin: 0 0 25px 0;
+
+}
+
+.unaCol{
+	margin: 0 0 25px 0;
+
+}
+#footer{
+	background-size: auto;
+	margin-top: 0;
+}
+
+#utiliza{
+	margin-top: 15px;
+}
+
+.box{
+	width: 280px;
+	margin-bottom: 25px;
+	height: auto;
+	overflow: hidden;
+	float: left;
+}
+.box img{
+	width: 80px;
+	height: auto;
+	overflow: hidden;
+}
+.boxContent{
+	height: 105px;
+	padding: 7px 20px 0 25px;
+}
+.boxTime{
+	min-height: 30px;
+	font-size: 22px;
+}
+.boxPrice2{
+	font-size: 22px;
+}
+a .boxButton{
+	padding: 1px 0 5px 6%;
+	margin-top: 4px;
+}
+.boxTitle{
+	width: 280px;
+	height: auto;
+	overflow: hidden;
+	background-color: #000;
+	padding: 5px 0;
+}
+
+.ultimo{
+	margin-bottom: 0;
+}
+
+#asterisco{
+	width:98%;
+	padding:0 1%;
+	color: #717171;
+	font-size: 12px;
+	margin-top: 10px;
+}
+
+.twitter-share-button{
+	width: 70px!important; 
+    height: 20px!important; 
+    margin:0;
+	float: left;
+}
+
+.popupfb{
+	width: 90px;
+	margin:0;
+	float: left;
+}
+
+.IN-widget{
+    width: 100px;
+    margin:0;
+	float: left;    
+}
+
+
+
+/* -------------------------- POPUP ----------------------------*/
+
+.popup{
+	width: 280px;
+	padding-top: 102px;
+}
+
+.popupTitle{
+	width: 280px;
+}
+.popupContent{
+	width: 260px;
+	padding: 10px 10px;
+}
+.popupTexto{
+	width: 260px;
+	padding-right: 0;
+	font-size: 13px;
+}
+
+.popupCuadro{
+	width: 240px;
+	padding: 10px 10px;
+	margin-top: 10px;
+	font-size: 13px;
+}
+
+.popupNegro{
+	width: 240px;
+	background-position:  230px center;
+}
+.popupFooter{
+	width: 250px;
+	padding: 10px 10px;
+}.popupFooter p{
+	margin-bottom: 10px !important;
+	font-size: 13px;
+}
+.popupFooter img{
+	width: 100px;
+	height: auto;
+	margin: 5px 12.5px !important;
+	float: left;
+}
+
+
+.modalbox{
+    width: 280px;
+}
+
+
+}
+
+
+
+.boxTitle1 {	width: 300px;
+	height: auto;
+	overflow: hidden;
+	background-color: #000;
+	padding: 5px 0;
+}
+.boxTitle1 {	width: 280px;
+	height: auto;
+	overflow: hidden;
+	background-color: #000;
+	padding: 5px 0;
+}
+
+</style>
