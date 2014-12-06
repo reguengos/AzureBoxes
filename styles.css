@@ -360,7 +360,7 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
 
 .fb_iframe_widget{
 	width: 130px;
-	display:inline-flex !important;
+	display:inline-table !important;
 	margin-left:80px;
 	float: left;
 }
@@ -543,7 +543,7 @@ ul{
 
 .fb_iframe_widget{
 	width: 130px;
-	display:inline-flex !important;
+	display:inline-table !important;
 	margin-left:80px;
 	float: left;
 }
@@ -653,7 +653,7 @@ ul{
 
 .fb_iframe_widget{
 	width: 130px;
-	display:inline-flex !important;
+	display:inline-table !important;
 	margin-left:75px;
 	float: left;
 }
@@ -800,7 +800,7 @@ ul{
 
 .fb_iframe_widget{
 	width: 130px;
-	display:inline-flex !important;
+	display:inline-table !important;
 	margin-left:10px;
 	float: left;
 }
@@ -1046,7 +1046,7 @@ a .boxButton{
 
 .fb_iframe_widget{
 	width: 98px;
-	display:inline-flex !important;
+	display:inline-table !important;
 	margin-left:-10px;
 	float: left;
 }
