@@ -21,16 +21,14 @@
 </script>
 <script language="javascript" type="text/javascript" src="http://www.microsoft.com/click/services/rio.ashx?ootc=200464753" ></script>
 <script language="javascript" type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.1.min.js" ></script>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>	
-			
-
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+</script>
 
 <script>
 	function TrackClick(e){
 		$("#tracker").attr("src", $(e).attr("data-src"));
 		console.log($(e).attr("data-src"));
 	}
-
 </script>
 
 </head>
@@ -596,7 +594,7 @@
 <div id="modal1" class="modalmask">
 	<div class="modalbox movedown">
 		<div class="popup" style="background-image: url(images/POPUP1_B.jpg);">
-			<a href="#" title="Close" class="close">X</a>
+			<a href="#close" title="Close" class="close">X</a>
 			<div class="popupTitle">
 				SVN Server en la nube
 			</div>
