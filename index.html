@@ -10,29 +10,29 @@
 <link rel="stylesheet" href="styles.css">
 
 <script type="text/javascript"> 
-12     var appInsights=window.appInsights||function(config){ 
-13         function s(config){t[config]=function(){var i=arguments;t.queue.push(function(){t[config].apply(t,i)})}}var t={config:config},r=document,f=window,e="script",o=r.createElement(e),i,u;for(o.src=config.url||"//az416426.vo.msecnd.net/scripts/a/ai.0.js",r.getElementsByTagName(e)[0].parentNode.appendChild(o),t.cookie=r.cookie,t.queue=[],i=["Event","Exception","Metric","PageView","Trace"];i.length;)s("track"+i.pop());return config.disableExceptionTracking||(i="onerror",s("_"+i),u=f[i],f[i]=function(config,r,f,e,o){var s=u&&u(config,r,f,e,o);return s!==!0&&t["_"+i](config,r,f,e,o),s}),t 
-14     }({ 
-15         instrumentationKey:"7007fad6-7f5e-47b2-acd8-dbba8aa173c8" 
-16     }); 
-17      
-18     window.appInsights=appInsights; 
-19     appInsights.trackPageView(); 
-20 </script> 
-21 
+     var appInsights=window.appInsights||function(config){ 
+        function s(config){t[config]=function(){var i=arguments;t.queue.push(function(){t[config].apply(t,i)})}}var t={config:config},r=document,f=window,e="script",o=r.createElement(e),i,u;for(o.src=config.url||"//az416426.vo.msecnd.net/scripts/a/ai.0.js",r.getElementsByTagName(e)[0].parentNode.appendChild(o),t.cookie=r.cookie,t.queue=[],i=["Event","Exception","Metric","PageView","Trace"];i.length;)s("track"+i.pop());return config.disableExceptionTracking||(i="onerror",s("_"+i),u=f[i],f[i]=function(config,r,f,e,o){var s=u&&u(config,r,f,e,o);return s!==!0&&t["_"+i](config,r,f,e,o),s}),t 
+     }({ 
+         instrumentationKey:"7007fad6-7f5e-47b2-acd8-dbba8aa173c8" 
+     }); 
+      
+     window.appInsights=appInsights; 
+     appInsights.trackPageView(); 
+ </script> 
  
-22 <script language="javascript" type="text/javascript" src="http://www.microsoft.com/click/services/rio.ashx?ootc=200464753" ></script> 
-23 <script language="javascript" type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.1.min.js" ></script> 
-24 
  
-25 <script> 
-26  
-27 	function TrackClick(e){ 
-28 		$("#tracker").attr("src", $(e).attr("data-src")); 
-29 		console.log($(e).attr("data-src")); 
-30 	} 
-31  
-32 </script> 
+<script language="javascript" type="text/javascript" src="http://www.microsoft.com/click/services/rio.ashx?ootc=200464753" ></script> 
+<script language="javascript" type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.1.min.js" ></script> 
+ 
+ 
+<script> 
+ 
+	function TrackClick(e){ 
+ 		$("#tracker").attr("src", $(e).attr("data-src")); 
+ 		console.log($(e).attr("data-src")); 
+ 	} 
+  
+ </script> 
 
 
 </head>
@@ -627,15 +627,15 @@
 				</a>
 
 		 
-625 		<div class="popupSocial">			 
-626 			<a href="https://twitter.com/share" class="twitter-share-button" data-dnt="true">Tweet</a>			 
-627 			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>	 
-628 			<script src="//platform.linkedin.com/in.js" type="text/javascript"> 
-629 			  lang: es_ES 
-630 			</script> 
-631 			<script type="IN/Share" data-counter="right"></script> 
-632 			<div class="fb-share-button" data-href="https://www.azureboxes.com" data-layout="button_count"></div>			 
-633 		</div> 
+		<div class="popupSocial">			 
+ 			<a href="https://twitter.com/share" class="twitter-share-button" data-dnt="true">Tweet</a>			 
+ 			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>	 
+			<script src="//platform.linkedin.com/in.js" type="text/javascript"> 
+ 			  lang: es_ES 
+			</script> 
+ 			<script type="IN/Share" data-counter="right"></script> 
+ 			<div class="fb-share-button" data-href="https://www.azureboxes.com" data-layout="button_count"></div>			 
+ 		</div> 
 
 	</div>
 </div>
