@@ -465,7 +465,7 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
 	width: 940px;
 	margin: 0 auto;
 	height:auto;
-	padding: 10px 40px;
+	padding: 10px 0px;
 	overflow: hidden;
 	background-color: #7fba00;
 	color: #fff;
