@@ -596,14 +596,7 @@ ul{
 	font-size: 12px;
 }
 
-#search-pane {
-    min-width: 240px;
-    max-width: 1040px;
-    margin: 40px auto 0px;
-    border: 1px solid #999;
-    height: 50px;
-    color: #999;
-}
+
 
 #search-pane #search-scenario {
     height: 35px;
@@ -616,21 +609,6 @@ ul{
     margin-left: 30px;
 }
 
-#search-pane .divisor {
-    border-left: 1px solid #999;
-    float: left;
-    width: 1px;
-    margin-top: 3px;
-    height: 44px;
-}
-
-#search-pane #search-lupa {
-    background-image: url("images/search.png");
-    height: 30px;
-    float: right;
-    width: 30px;
-    margin: 10px 20px 10px 10px;
-}
 
 }
 
@@ -752,14 +730,7 @@ ul{
 	font-size: 12px;
 }
 
-#search-pane {
-    min-width: 240px;
-    max-width: 1040px;
-    margin: 40px auto 0px;
-    border: 1px solid #999;
-    height: 50px;
-    color: #999;
-}
+
 
 #search-pane #search-scenario {
     height: 35px;
@@ -771,23 +742,6 @@ ul{
     margin-top: 10px;
     margin-left: 30px;
 }
-
-#search-pane .divisor {
-    border-left: 1px solid #999;
-    float: left;
-    width: 1px;
-    margin-top: 3px;
-    height: 44px;
-}
-
-#search-pane #search-lupa {
-    background-image: url("images/search.png");
-    height: 30px;
-    float: right;
-    width: 30px;
-    margin: 10px 20px 10px 10px;
-}
-
 
 
 }
@@ -912,14 +866,6 @@ ul{
 	float: left;
 }
 
-#search-pane {
-    min-width: 240px;
-    max-width: 1040px;
-    margin: 40px auto 0px;
-    border: 1px solid #999;
-    height: 50px;
-    color: #999;
-}
 
 #search-pane #search-scenario {
     height: auto;    
@@ -929,22 +875,6 @@ ul{
     font-size: 15px;
     margin-top: 15px;
     margin-left: 30px;
-}
-
-#search-pane .divisor {
-    border-left: 1px solid #999;
-    float: left;
-    width: 1px;
-    margin-top: 3px;
-    height: 44px;
-}
-
-#search-pane #search-lupa {
-    background-image: url("images/search.png");
-    height: 30px;
-    float: right;
-    width: 30px;
-    margin: 10px 20px 10px 10px;
 }
 
 
