@@ -609,6 +609,15 @@ ul{
     margin-left: 30px;
 }
 
+#search-pane .divisor {
+    border-left: 1px solid #999;
+    float: left;
+    width: 1px;
+    margin-top: 3px;
+    height: 44px;
+    margin-left: 460px;
+}
+
 
 }
 
@@ -741,6 +750,15 @@ ul{
     font-size: 20px;
     margin-top: 10px;
     margin-left: 30px;
+}
+
+#search-pane .divisor {
+    border-left: 1px solid #999;
+    float: left;
+    width: 1px;
+    margin-top: 3px;
+    height: 44px;
+    margin-left: 240px;
 }
 
 
@@ -876,6 +894,15 @@ ul{
     margin-top: 15px;
     margin-left: 30px;
 }
+
+#search-pane .divisor {
+    border-left: 1px solid #999;
+    float: left;
+    width: 1px;
+    margin-top: 3px;
+    height: 44px;
+    margin-left: 20px;
+}	
 
 
 
@@ -1133,6 +1160,14 @@ a .boxButton{
     margin-left: 5px;
 }
 
+#search-pane .divisor {
+    border-left: 1px solid #999;
+    float: left;
+    width: 1px;
+    margin-top: 3px;
+    height: 44px;
+    margin-left: 20px;
+}
 
 /* -------------------------- POPUP ----------------------------*/
 
