@@ -922,13 +922,12 @@ ul{
 }
 
 #search-pane #search-scenario {
-    height: 35px;
-    font-size: 20px;
+    height: auto;    
     font-family: segoe ui;
     float: left;
     width: auto;
-    font-size: 20px;
-    margin-top: 10px;
+    font-size: 15px;
+    margin-top: 15px;
     margin-left: 30px;
 }
 
@@ -1194,6 +1193,15 @@ a .boxButton{
 	float: left;
 }
 
+#search-pane #search-scenario {
+    height: auto;    
+    font-family: segoe ui;
+    float: left;
+    width: auto;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-left: 30px;
+}
 
 
 /* -------------------------- POPUP ----------------------------*/
