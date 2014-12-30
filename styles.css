@@ -357,7 +357,6 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
 
 }
 
-
 .fb_iframe_widget{
 	width: 130px;
 	display:inline-flex !important;
@@ -454,13 +453,6 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
     margin-left: 30px;
 }
 
-#search-pane .divisor {
-    border-left: 1px solid #999;
-    float: left;
-    width: 1px;
-    margin-top: 3px;
-    height: 44px;
-}
 
 #search-pane #search-lupa {
     background-image: url("images/search.png");
@@ -521,6 +513,10 @@ border: 1px solid #999;
 	background-repeat: repeat-x;
 	background-position:left top;
 	margin-bottom:-65px;
+}
+
+#utiliza{
+	width: auto;
 }
 
 #botonera{
@@ -636,14 +632,32 @@ ul{
     margin-left: 30px;
 }
 
-#search-pane .divisor {
-    border-left: 1px solid #999;
-    float: left;
-    width: 1px;
-    margin-top: 3px;
-    height: 44px;
-    margin-left: 460px;
+#filtroscont {
+  	min-width: 240px;
+    max-width: 1040px;
+    width: 940px;
+    margin: 40px auto 0px;   
+    height: 50px;
+    color: #999;
+    border-spacing: 15px;
+    text-align: center;
+    
 }
+
+#filtro{
+ height: 50px;
+ width: 250px;
+border: 1px solid #999;
+}
+
+#inputbox{
+ height: 51px;
+ width: 873px;	
+ margin-left: -31px;
+ margin-top: -11px;
+}
+
+
 
 
 }
@@ -670,6 +684,10 @@ ul{
 	background-repeat: repeat-x;
 	background-position: left top;
 	margin-bottom: -160px;
+}
+
+#utiliza{
+	width: auto;
 }
 
 #botonera{
@@ -779,14 +797,31 @@ ul{
     margin-left: 30px;
 }
 
-#search-pane .divisor {
-    border-left: 1px solid #999;
-    float: left;
-    width: 1px;
-    margin-top: 3px;
-    height: 44px;
-    margin-left: 240px;
+#filtroscont {
+  	min-width: 240px;
+    max-width: 1040px;
+    width: 720px;
+    margin: 40px auto 0px;   
+    height: 50px;
+    color: #999;
+    border-spacing: 15px;
+    text-align: center;
+    
 }
+
+#filtro{
+ height: 50px;
+ width: 250px;
+border: 1px solid #999;
+}
+
+#inputbox{
+ height: 51px;
+ width: 653px;	
+ margin-left: -31px;
+ margin-top: -11px;
+}
+
 
 
 }
@@ -922,14 +957,32 @@ ul{
     margin-left: 30px;
 }
 
-#search-pane .divisor {
-    border-left: 1px solid #999;
-    float: left;
-    width: 1px;
-    margin-top: 3px;
-    height: 44px;
-    margin-left: 20px;
-}	
+#filtroscont {
+  	min-width: 240px;
+    max-width: 1040px;
+    width: 400px;
+    margin: 40px auto 0px;   
+    height: 50px;
+    color: #999;
+    border-spacing: 15px;
+    text-align: center;
+    
+}
+
+#filtro{
+ height: 50px;
+ width: 250px;
+border: 1px solid #999;
+}
+
+#inputbox{
+ height: 51px;
+ width: 333px;	
+ margin-left: -31px;
+ margin-top: -16px;
+}
+
+
 
 
 
@@ -1187,14 +1240,33 @@ a .boxButton{
     margin-left: 5px;
 }
 
-#search-pane .divisor {
-    border-left: 1px solid #999;
-    float: left;
-    width: 1px;
-    margin-top: 3px;
-    height: 44px;
-    margin-left: 20px;
+#filtroscont {
+  	min-width: 100px;
+    max-width: 1040px;
+    width: 200px;
+    margin: 40px auto 0px;   
+    height: 50px;
+    color: #999;
+    border-spacing: 0px;
+    text-align: center;
+    font-size: 15px !important;
+    
 }
+
+#filtro{
+ height: 50px;
+ width: 250px;
+border: 1px solid #999;
+}
+
+#inputbox{
+ height: 51px;
+ width: 215px;	
+ margin-left: -6px;
+ margin-top: -19px;
+}
+
+
 
 
 
@@ -1251,8 +1323,6 @@ a .boxButton{
 
 
 }
-
-
 
 .boxTitle1 {	width: 300px;
 	height: auto;
