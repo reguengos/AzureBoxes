@@ -1229,6 +1229,14 @@ a .boxButton{
 
 }
 
+@-moz-document url-prefix(){
+  .IN-widget{
+	margin-left:10px;
+	width: 0px!important;
+
+}
+}
+
 .fb_iframe_widget{
 	width: 98px;
 	display:inline-flex !important;
@@ -1329,15 +1337,6 @@ border: 1px solid #999;
 }
 
 
-}
-
-@media screen and (min-width: 50px) and (max-width: 320px) { 
-@-moz-document url-prefix() 
-  .IN-widget{
-	margin-left:10px;
-	width: 0px!important;
-
-}
 }
 
 .boxTitle1 {	width: 300px;
