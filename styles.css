@@ -610,6 +610,12 @@ ul{
 
 }
 
+@-moz-document url-prefix(){
+  .IN-widget{
+	margin-left:73px;
+}
+}
+
 
 .fb_iframe_widget{
 	width: 130px;
@@ -763,6 +769,12 @@ ul{
 .IN-widget{
 	margin-left:80px;
 
+}
+
+@-moz-document url-prefix(){
+  .IN-widget{
+	margin-left:79px;
+}
 }
 
 
@@ -948,6 +960,12 @@ ul{
 .IN-widget{
 	margin-left:4px;
 
+}
+
+@-moz-document url-prefix(){
+  .IN-widget{
+	margin-left:0px;
+}
 }
 
 
