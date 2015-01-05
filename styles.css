@@ -415,10 +415,15 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
 }
 
 .creador_image img{
-	height: 40px;
-	width: 40px;
+	height: 32px;
+	width: 32px;
 	float: left;
 	margin-top: 15px !important;
+}
+
+.creador_image {	
+	width: auto;
+	float: left;	
 }
 
 
@@ -516,6 +521,15 @@ border: 1px solid #999;
  width: 963px;	
  margin-left: -31px;
  margin-top: -30px;
+}
+
+@-moz-document url-prefix(){
+  #inputbox{
+ height: 51px;
+ width: 873px;	
+ margin-left: -31px;
+ margin-top: -11px;
+}
 }
 
 	
@@ -693,6 +707,7 @@ border: 1px solid #999;
  margin-left: -31px;
  margin-top: -11px;
 }
+
 
 
 
