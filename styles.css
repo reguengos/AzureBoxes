@@ -183,6 +183,11 @@ a .boxButton{
 .medio{
 	margin: 0 70px;
 }
+
+.destacado{  
+	background-image: url(images/medalla.png);	
+  }
+
 #footer{
 	width: 100%;
 	height: auto;
@@ -326,7 +331,7 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
 }
 .popupNegro{
 	width: 192px;
-	float: left;
+	float: right;
 	padding: 8px 10px;
 	background-color: #000;
 	color: #fff;
@@ -478,6 +483,7 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
  height: 50px;
  width: 250px;
 border: 1px solid #999;
+
 }
 
 #inputbox{
@@ -1249,7 +1255,7 @@ a .boxButton{
     color: #999;
     border-spacing: 0px;
     text-align: center;
-    font-size: 15px !important;
+    font-size: 13px !important;
     
 }
 
@@ -1257,6 +1263,7 @@ a .boxButton{
  height: 50px;
  width: 250px;
 border: 1px solid #999;
+
 }
 
 #inputbox{
@@ -1322,6 +1329,15 @@ border: 1px solid #999;
 }
 
 
+}
+
+@media screen and (min-width: 50px) and (max-width: 320px) { 
+@-moz-document url-prefix() 
+  .IN-widget{
+	margin-left:10px;
+	width: 0px!important;
+
+}
 }
 
 .boxTitle1 {	width: 300px;
