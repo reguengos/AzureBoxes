@@ -362,6 +362,12 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
 
 }
 
+@-moz-document url-prefix(){
+  .IN-widget{
+	margin-left:73px;
+}
+}
+
 .fb_iframe_widget{
 	width: 130px;
 	display:inline-flex !important;
