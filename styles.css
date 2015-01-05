@@ -411,7 +411,7 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
 .creador_nombre{
 	float: left;
 	margin-top: 20px;
-	width: 200px;
+	width: auto;
 }
 
 .creador_image img{
@@ -423,7 +423,8 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
 
 .creador_image {	
 	width: auto;
-	float: left;	
+	float: left;
+	margin-left: 10px !important;	
 }
 
 
@@ -526,7 +527,7 @@ border: 1px solid #999;
 @-moz-document url-prefix(){
   #inputbox{
  height: 51px;
- width: 873px;	
+ width: 963px;	
  margin-left: -31px;
  margin-top: -11px;
 }
@@ -1337,6 +1338,15 @@ border: 1px solid #999;
  width: 215px;	
  margin-left: -6px;
  margin-top: -19px;
+}
+
+@-moz-document url-prefix(){
+  #inputbox{
+ height: 51px;
+ width: 210px;	
+ margin-left: -6px;
+ margin-top: -19px;
+}
 }
 
 
