@@ -522,7 +522,7 @@ border: 1px solid #999;
 
 @-moz-document url-prefix(){
   #inputbox{
- height: 50px;
+ height: 51px;
  width: 963px;	
  float:left;
  margin-top: -11px;
@@ -703,7 +703,7 @@ border: 1px solid #999;
 
 @-moz-document url-prefix(){
   #inputbox{
- height: 50px;
+ height: 51px;
  width: 863px;	
 float: left;
  margin-top: -11px;
@@ -874,7 +874,7 @@ border: 1px solid #999;
 
 @-moz-document url-prefix(){
   #inputbox{
- height: 50px;
+ height: 51px;
  width: 643px;	
 float: left;
  margin-top: -11px;
@@ -1042,10 +1042,10 @@ border: 1px solid #999;
 
 @-moz-document url-prefix(){
   #inputbox{
- height: 50px;
+ height: 51px;
  width: 330px;	
 float: left;
- margin-top: -11px;
+ margin-top: -16px;
 }
 }
 
@@ -1330,10 +1330,10 @@ border: 1px solid #999;
 
 @-moz-document url-prefix(){
   #inputbox{
- height: 51.1px;
+ height: 51px;
  width: 210px;	
-float: lef;
- margin-top: -18.4px;
+ float: lef;
+ margin-top: -18px;
 }
 }
 
