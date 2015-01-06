@@ -526,9 +526,9 @@ border: 1px solid #999;
 
 @-moz-document url-prefix(){
   #inputbox{
- height: 51px;
+ height: 50px;
  width: 963px;	
- margin-left: -31px;
+ float:left;
  margin-top: -11px;
 }
 }
@@ -709,7 +709,14 @@ border: 1px solid #999;
  margin-top: -11px;
 }
 
-
+@-moz-document url-prefix(){
+  #inputbox{
+ height: 50px;
+ width: 863px;	
+float: left;
+ margin-top: -11px;
+}
+}
 
 
 
@@ -881,6 +888,15 @@ border: 1px solid #999;
  margin-top: -11px;
 }
 
+@-moz-document url-prefix(){
+  #inputbox{
+ height: 50px;
+ width: 643px;	
+float: left;
+ margin-top: -11px;
+}
+}
+
 
 
 }
@@ -1047,6 +1063,14 @@ border: 1px solid #999;
  margin-top: -16px;
 }
 
+@-moz-document url-prefix(){
+  #inputbox{
+ height: 50px;
+ width: 330px;	
+float: left;
+ margin-top: -11px;
+}
+}
 
 
 
@@ -1342,10 +1366,10 @@ border: 1px solid #999;
 
 @-moz-document url-prefix(){
   #inputbox{
- height: 51px;
+ height: 51.1px;
  width: 210px;	
- margin-left: -6px;
- margin-top: -19px;
+float: lef;
+ margin-top: -18.4px;
 }
 }
 
