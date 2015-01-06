@@ -423,6 +423,39 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
 	margin-left: 10px !important;	
 }
 
+.popupDown{
+	float: left;
+	width: 600px;
+
+}
+
+.mva a{
+	color: #fff;
+	text-decoration: none;
+}
+
+.mva {
+	width: 515px;
+	height: 22px;
+	background-position:  470px center;
+	float: left;		
+	background-color: #B51616;
+	padding: 20px 0px;	
+	color: #fff;
+	font-weight: bold;
+	font-size: 16px;
+	margin-top: 15px;
+	background-image: url(images/arrow-right.png);
+	background-repeat: no-repeat;	
+	background-size: 30px;
+	text-align: center;
+}
+
+
+
+
+}
+
 
 /* ----------------------- EFECTO POPUP --------------------------*/
 
