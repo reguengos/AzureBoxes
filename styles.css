@@ -1266,6 +1266,7 @@ float: left;
 .creador{
 	float: left;
 	margin-top: 10px;
+	margin-left: 55px; 
 }
 
 .creador_nombre{
@@ -1702,7 +1703,7 @@ border: 1px solid #999;
 .fb_iframe_widget{
 	width: auto;
 	display:inline-flex !important;
-	margin-left:20px;
+	margin-left:-10px;
 	float: left;
 }
 
