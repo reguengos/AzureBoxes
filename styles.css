@@ -90,25 +90,24 @@ ul{
 	margin: 40px auto 0 auto;
 }
 
-
-#boxes{
-	width:1040px;
-	height: auto;
-	overflow: hidden;
-	text-align: center;
-	color: #fff;
-	font-size: 28px;
-	margin: 40px auto 0 auto;
-	font-family: "Segoe UI", Tahoma, Helvetica;
-	font-size: 18px;
-	font-weight: bold;
+#boxes {
+    width: 1100px;
+    height: auto;
+    overflow: hidden;
+    text-align: center;
+    color: #FFF;
+    margin: 0px auto 0px;
+    font-family: "Segoe UI",Tahoma,Helvetica;
+    font-size: 18px;
+    font-weight: bold;
 }
-.box{
-	width: 300px;
-	margin-bottom: 25px;
-	height: auto;
-	overflow: hidden;
-	float: left;
+
+.box {
+    width: 300px;
+    margin: 10px 33px;
+    height: auto;
+    overflow: hidden;
+    float: left;
 }
 .boxTitle{
 	width: 300px;
@@ -181,13 +180,6 @@ a .boxButton{
 	float: left;
 	margin-top: 10px;
 }
-.medio{
-	margin: 0 70px;
-}
-
-.destacado{  
-	background-image: url(images/medalla.png);	
-  }
 
 #footer{
 	width: 100%;
@@ -332,7 +324,7 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
 }
 .popupNegro{
 	width: 192px;
-	float: right;
+	float: left;
 	padding: 8px 10px;
 	background-color: #000;
 	color: #fff;
@@ -361,12 +353,6 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
 .IN-widget{
 	margin-left:78px;
 
-}
-
-@-moz-document url-prefix(){
-  .IN-widget{
-	margin-left:73px;
-}
 }
 
 .fb_iframe_widget{
@@ -401,30 +387,6 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
 .popupFooter img{
 	width: 98px;
 	height: auto;
-}
-
-.creador{
-	float: left;
-	margin-top: 10px;
-}
-
-.creador_nombre{
-	float: left;
-	margin-top: 20px;
-	width: auto;
-}
-
-.creador_image img{
-	height: 32px;
-	width: 32px;
-	float: left;
-	margin-top: 15px !important;
-}
-
-.creador_image {	
-	width: auto;
-	float: left;
-	margin-left: 10px !important;	
 }
 
 
@@ -514,7 +476,6 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
  height: 50px;
  width: 250px;
 border: 1px solid #999;
-
 }
 
 #inputbox{
@@ -522,15 +483,6 @@ border: 1px solid #999;
  width: 963px;	
  margin-left: -31px;
  margin-top: -30px;
-}
-
-@-moz-document url-prefix(){
-  #inputbox{
- height: 50px;
- width: 963px;	
- float:left;
- margin-top: -11px;
-}
 }
 
 	
@@ -616,16 +568,12 @@ ul{
 	font-weight: bold;
 }
 
-.medio{
-	margin: 0 40px;
-}
-
 .box{
 	width: 300px;
 	margin-bottom: 25px;
 	margin-left: 8px;
-    	margin-right: 4px;
-    	height: auto;
+	margin-right: 4px;
+    height: auto;
 	overflow: hidden;
 	float: left;
 }
@@ -642,12 +590,6 @@ ul{
 .IN-widget{
 	margin-left:78px;
 
-}
-
-@-moz-document url-prefix(){
-  .IN-widget{
-	margin-left:73px;
-}
 }
 
 
@@ -709,14 +651,6 @@ border: 1px solid #999;
  margin-top: -11px;
 }
 
-@-moz-document url-prefix(){
-  #inputbox{
- height: 50px;
- width: 863px;	
-float: left;
- margin-top: -11px;
-}
-}
 
 
 
@@ -788,17 +722,20 @@ ul{
 	padding: 0px 0px 0px 140px;
 }
 
-#boxes{
-	width:620px;
-	height: auto;
-	overflow: hidden;
-	text-align: center;
-	color: #fff;
-	font-size: 28px;
-	margin: 40px 50px 25px 50px;
-	font-family: "Segoe UI", Tahoma, Helvetica;
-	font-size: 18px;
-	font-weight: bold;
+#boxes {
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    text-align: center;
+    color: #FFF;
+    margin: 40px 10px 25px;
+    font-family: "Segoe UI",Tahoma,Helvetica;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.box {
+	margin: 10px 3%;
 }
 
 .twitter-share-button{
@@ -813,30 +750,12 @@ ul{
 
 }
 
-@-moz-document url-prefix(){
-  .IN-widget{
-	margin-left:79px;
-}
-}
-
 
 .fb_iframe_widget{
 	width: 130px;
 	display:inline-flex !important;
 	margin-left:75px;
 	float: left;
-}
-
-
-
-.medio{
-	margin: 0px;
-}
-
-
-.dosCol{
-	margin: 0 0 25px 20px;
-
 }
 
 #footer{
@@ -886,15 +805,6 @@ border: 1px solid #999;
  width: 653px;	
  margin-left: -31px;
  margin-top: -11px;
-}
-
-@-moz-document url-prefix(){
-  #inputbox{
- height: 50px;
- width: 643px;	
-float: left;
- margin-top: -11px;
-}
 }
 
 
@@ -965,33 +875,26 @@ ul{
 #botones{
 	padding: 0 100px;
 }
-#boxes{
-	width:300px;
-	height: auto;
-	overflow: hidden;
-	text-align: center;
-	color: #fff;
-	font-size: 28px;
-	margin: 40px 50px 0px 50px;
-	font-family: "Segoe UI", Tahoma, Helvetica;
-	font-size: 18px;
-	font-weight: bold;
+#boxes {
+    height: auto;
+    overflow: hidden;
+    text-align: center;
+    color: #FFF;
+    margin: 40px 0px 0px;
+    font-family: "Segoe UI",Tahoma,Helvetica;
+    font-size: 18px;
+    font-weight: bold;
+    width: auto;
 }
 
-.medio{
-	margin: 0;
+.box {
+    width: auto;
+    margin: 10px 12%;
+    height: auto;
+    overflow: hidden;
+    float: left;
 }
 
-
-.dosCol{
-	margin: 0 0 25px 0;
-
-}
-
-.unaCol{
-	margin: 0 0 25px 0;
-
-}
 #footer{
 	background-size: auto;
 	margin-top: 0;
@@ -1011,12 +914,6 @@ ul{
 .IN-widget{
 	margin-left:4px;
 
-}
-
-@-moz-document url-prefix(){
-  .IN-widget{
-	margin-left:0px;
-}
 }
 
 
@@ -1063,14 +960,6 @@ border: 1px solid #999;
  margin-top: -16px;
 }
 
-@-moz-document url-prefix(){
-  #inputbox{
- height: 50px;
- width: 330px;	
-float: left;
- margin-top: -11px;
-}
-}
 
 
 
@@ -1134,9 +1023,7 @@ float: left;
 }
 
 
-
 }
-
 
 /* ------------------------------------- 320px ------------------------------------- */
 
@@ -1214,20 +1101,6 @@ ul{
 	font-weight: bold;
 }
 
-.medio{
-	margin: 0;
-}
-
-
-.dosCol{
-	margin: 0 0 25px 0;
-
-}
-
-.unaCol{
-	margin: 0 0 25px 0;
-
-}
 #footer{
 	background-size: auto;
 	margin-top: 0;
@@ -1239,11 +1112,12 @@ ul{
 
 .box{
 	width: 280px;
-	margin-bottom: 25px;
+	margin: 10px 0px;
 	height: auto;
 	overflow: hidden;
 	float: left;
 }
+
 .box img{
 	width: 80px;
 	height: auto;
@@ -1312,14 +1186,6 @@ a .boxButton{
 
 }
 
-@-moz-document url-prefix(){
-  .IN-widget{
-	margin-left:10px;
-	width: 0px!important;
-
-}
-}
-
 .fb_iframe_widget{
 	width: 98px;
 	display:inline-flex !important;
@@ -1346,7 +1212,7 @@ a .boxButton{
     color: #999;
     border-spacing: 0px;
     text-align: center;
-    font-size: 13px !important;
+    font-size: 15px !important;
     
 }
 
@@ -1354,7 +1220,6 @@ a .boxButton{
  height: 50px;
  width: 250px;
 border: 1px solid #999;
-
 }
 
 #inputbox{
@@ -1362,15 +1227,6 @@ border: 1px solid #999;
  width: 215px;	
  margin-left: -6px;
  margin-top: -19px;
-}
-
-@-moz-document url-prefix(){
-  #inputbox{
- height: 51.1px;
- width: 210px;	
-float: lef;
- margin-top: -18.4px;
-}
 }
 
 
