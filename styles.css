@@ -90,6 +90,7 @@ ul{
 	margin: 40px auto 0 auto;
 }
 
+
 #boxes{
 	width:1040px;
 	height: auto;
@@ -183,6 +184,11 @@ a .boxButton{
 .medio{
 	margin: 0 70px;
 }
+
+.destacado{  
+	background-image: url(images/medalla.png);	
+  }
+
 #footer{
 	width: 100%;
 	height: auto;
@@ -326,7 +332,7 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
 }
 .popupNegro{
 	width: 192px;
-	float: left;
+	float: right;
 	padding: 8px 10px;
 	background-color: #000;
 	color: #fff;
@@ -355,6 +361,12 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
 .IN-widget{
 	margin-left:78px;
 
+}
+
+@-moz-document url-prefix(){
+  .IN-widget{
+	margin-left:73px;
+}
 }
 
 .fb_iframe_widget{
@@ -389,6 +401,30 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
 .popupFooter img{
 	width: 98px;
 	height: auto;
+}
+
+.creador{
+	float: left;
+	margin-top: 10px;
+}
+
+.creador_nombre{
+	float: left;
+	margin-top: 20px;
+	width: auto;
+}
+
+.creador_image img{
+	height: 32px;
+	width: 32px;
+	float: left;
+	margin-top: 15px !important;
+}
+
+.creador_image {	
+	width: auto;
+	float: left;
+	margin-left: 10px !important;	
 }
 
 
@@ -478,6 +514,7 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
  height: 50px;
  width: 250px;
 border: 1px solid #999;
+
 }
 
 #inputbox{
@@ -485,6 +522,15 @@ border: 1px solid #999;
  width: 963px;	
  margin-left: -31px;
  margin-top: -30px;
+}
+
+@-moz-document url-prefix(){
+  #inputbox{
+ height: 51px;
+ width: 963px;	
+ margin-left: -31px;
+ margin-top: -11px;
+}
 }
 
 	
@@ -598,6 +644,12 @@ ul{
 
 }
 
+@-moz-document url-prefix(){
+  .IN-widget{
+	margin-left:73px;
+}
+}
+
 
 .fb_iframe_widget{
 	width: 130px;
@@ -656,6 +708,7 @@ border: 1px solid #999;
  margin-left: -31px;
  margin-top: -11px;
 }
+
 
 
 
@@ -751,6 +804,12 @@ ul{
 .IN-widget{
 	margin-left:80px;
 
+}
+
+@-moz-document url-prefix(){
+  .IN-widget{
+	margin-left:79px;
+}
 }
 
 
@@ -936,6 +995,12 @@ ul{
 .IN-widget{
 	margin-left:4px;
 
+}
+
+@-moz-document url-prefix(){
+  .IN-widget{
+	margin-left:0px;
+}
 }
 
 
@@ -1223,6 +1288,14 @@ a .boxButton{
 
 }
 
+@-moz-document url-prefix(){
+  .IN-widget{
+	margin-left:10px;
+	width: 0px!important;
+
+}
+}
+
 .fb_iframe_widget{
 	width: 98px;
 	display:inline-flex !important;
@@ -1249,7 +1322,7 @@ a .boxButton{
     color: #999;
     border-spacing: 0px;
     text-align: center;
-    font-size: 15px !important;
+    font-size: 13px !important;
     
 }
 
@@ -1257,6 +1330,7 @@ a .boxButton{
  height: 50px;
  width: 250px;
 border: 1px solid #999;
+
 }
 
 #inputbox{
@@ -1264,6 +1338,15 @@ border: 1px solid #999;
  width: 215px;	
  margin-left: -6px;
  margin-top: -19px;
+}
+
+@-moz-document url-prefix(){
+  #inputbox{
+ height: 51px;
+ width: 210px;	
+ margin-left: -6px;
+ margin-top: -19px;
+}
 }
 
 
