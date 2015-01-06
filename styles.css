@@ -342,20 +342,21 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
 	background-size: 20px;
 }
 .popupSocial{
-	width: 300px;
+	width: 250px;
 	float: right;	
 	margin-top: 30px;
+	margin-right: -28px;
 }
 
 .twitter-share-button{
 	width: 70px;
-    	height: 20px;
-    	margin:0;
+	height: 20px;
+	margin:0;
 	float: left;
 }
 
 .IN-widget{
-	margin-left:78px;
+	margin-left:5px;
 }
 
 @-moz-document url-prefix(){
@@ -365,9 +366,9 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
 }
 
 .fb_iframe_widget{
-	width: 130px;
+	width: auto;
 	display:inline-flex !important;
-	margin-left:80px;
+	margin-left:5px;
 	float: left;
 }
 
@@ -424,7 +425,7 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
 
 .popupDown{
 	float: left;
-	width: 600px;
+	width: auto;
 
 }
 
@@ -435,7 +436,7 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
 
 .mva {
 	width: 515px;
-	height: 22px;
+	height: 20px;
 	background-position:  470px center;
 	float: left;		
 	background-color: #B51616;
