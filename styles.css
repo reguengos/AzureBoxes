@@ -531,14 +531,11 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
 
 #filtroscont {
     width: 1040px;
-<<<<<<< HEAD
     margin: 35px auto 0px;   
     height: 80px;
     color: #000;  
-=======
     height: 50px;
     color: #999;
->>>>>>> Visual changes for search functionality
     text-align: center;
     margin: 20px auto 0px;
     margin-bottom: 15px;
@@ -1202,16 +1199,12 @@ ul{
 
 /*@media screen and (max-width:480px) and (min-width:321px)*/
 #filtroscont {
-<<<<<<< HEAD
-    width: auto;
     margin: 25px auto 0px;
-    height: 150px;    c
-=======
+    height: 150px;
     width: 90%;
     margin: 5px auto 0px;
     height: 150px;
     color: #999;
->>>>>>> Visual changes for search functionality
     text-align: center;
 }
 
@@ -1583,16 +1576,12 @@ a .boxButton{
 
 /*@media screen and (max-width:320px) and (min-width:50px)*/
 #filtroscont {
-<<<<<<< HEAD
-    width: auto;
     margin: 25px auto 0px;
     height: 150px;    
-=======
     width: 86%;
     margin: 10px auto 0px;
     height: 100px;
     color: #999;
->>>>>>> Visual changes for search functionality
     text-align: center;
 }
 
