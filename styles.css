@@ -20,6 +20,27 @@ body{
 	margin: 0;
 }
 
+.medalla {
+    width: auto;
+    height: auto;
+    position: absolute;
+    float: left;
+    margin-top: -25px !important;
+    margin-left: 230px !important;
+}
+
+
+
+.boxTitledes {
+    width: 250px;
+    height: auto;
+    float: left;
+    background-color: #000;
+    margin-left: 5px;
+}
+
+
+
 #containerMA{
 	width: 1280px;
 	height: auto;
