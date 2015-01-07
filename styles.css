@@ -37,7 +37,7 @@ body{
 	background-image: url(images/banner.jpg);
 	background-repeat: repeat-x;
 	background-position: center top;
-	margin-bottom: 60px;
+	margin-bottom: 40px;
 }
 
 #botonera{
@@ -87,12 +87,12 @@ ul{
 	padding: 1% 10px;
 	color: #fff;
 	font-size: 28px;
-	margin: 40px auto 0 auto;
+	margin: 30px auto 0 auto;
 }
 
 
 #boxes {
-    width: 1100px;
+    width: 1040px;
     height: auto;
     overflow: hidden;
     text-align: center;
@@ -105,11 +105,16 @@ ul{
 
 .box {
     width: 300px;
-    margin: 10px 33px;
+	margin: 10px 70px 10px 0px;
     height: auto;
     overflow: hidden;
     float: left;
 }
+
+.boxclicker:nth-child(3n) .box {  
+	margin-right: 0px;
+}
+
 .boxTitle{
 	width: 300px;
 	height: auto;
@@ -524,30 +529,44 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
     margin: 10px 20px 10px 10px;
 }
 
-#filtroscont {  	
+#filtroscont {
     width: 1040px;
+<<<<<<< HEAD
     margin: 35px auto 0px;   
     height: 80px;
     color: #000;  
+=======
+    height: 50px;
+    color: #999;
+>>>>>>> Visual changes for search functionality
     text-align: center;
-    
+    margin: 20px auto 0px;
+    margin-bottom: 15px;
 }
 
-#filtro{
+.filtro{
 	width: 200px;
 	border: 1px solid #999;
 	font-size: 18px;
 	height: 20px;
-	padding: 20px;
-	margin-left: 15px;
+	padding: 15px 20px;
+	margin-left: 24px;
 	float:left;
 
 }
 
+.filtro.primero {
+	margin-left: 0px;
+}
+
+.filtro.ultimo {
+	margin-right: 0px;
+}
+
 #inputbox{
  height: 50px;
- width: 1037px;	
- margin-top: 35px;
+ width: 1035px;	
+ margin-top: 20px;
  margin-left: 120px;
 }
 
@@ -645,8 +664,6 @@ ul{
 	float: left;
 }
 
-
-
 .twitter-share-button{
 	width: 70px;
     	height: 20px;
@@ -696,7 +713,7 @@ ul{
     
 }
 
-#filtro{
+.filtro{
 	width: 170px;
 	border: 1px solid #999;
 	font-size: 18px;
@@ -880,6 +897,10 @@ ul{
 	margin: 10px 3%;
 }
 
+.boxclicker:nth-child(3n) .box {  
+	margin-right: 3%;
+}
+
 .twitter-share-button{
 	width: 70px;
     	height: 20px;
@@ -933,18 +954,24 @@ ul{
 
 #filtroscont {  	
     width: auto;
+<<<<<<< HEAD
     margin: 45px auto 0px;   
     height: 80px;    
+=======
+    margin: 25px auto 0px;   
+    height: 50px;
+    color: #999;  
+>>>>>>> Visual changes for search functionality
     text-align: center;
     
 }
 
-#filtro{
+.filtro{
 	width: 120px;
 	border: 1px solid #999;
 	font-size: 16px;
 	height: 20px;
-	padding: 20px;
+	padding: 15px 20px;
 	margin-left: 15px;
 	float:left;
 }
@@ -952,7 +979,7 @@ ul{
 #inputbox{
  height: 50px;
  width: 716px;	
- margin-top: 35px;
+ margin-top: 20px;
  margin-left: 0px;
 }
 
@@ -1112,7 +1139,7 @@ ul{
     overflow: hidden;
     text-align: center;
     color: #FFF;
-    margin: 40px 0px 0px;
+    margin: 10px 0px 0px;
     font-family: "Segoe UI",Tahoma,Helvetica;
     font-size: 18px;
     font-weight: bold;
@@ -1175,28 +1202,45 @@ ul{
 
 /*@media screen and (max-width:480px) and (min-width:321px)*/
 #filtroscont {
+<<<<<<< HEAD
     width: auto;
     margin: 25px auto 0px;
     height: 150px;    c
+=======
+    width: 90%;
+    margin: 5px auto 0px;
+    height: 150px;
+    color: #999;
+>>>>>>> Visual changes for search functionality
     text-align: center;
 }
 
 /*@media screen and (max-width:480px) and (min-width:321px)*/
-#filtro {
+.filtro {
     width: 120px;
     border: 1px solid #999;
     font-size: 16px;
     height: 20px;
-    padding: 20px;
+    padding: 15px 20px;
     margin-left: 27px;
     margin-top: 15px;
     float: left;
 }
 
+.filtro:nth-child(odd) {
+	float: right;
+	margin-right: 0px;
+}
+
+.filtro:nth-child(even) {
+	float: left;
+	margin-left: 0px;
+}
+
 #inputbox{
  height: 50px;
- width: 396px;	
- margin-top: 35px;
+ width: 394px;	
+ margin-top: 20px;
  margin-left: 0px;
 }
 
@@ -1421,7 +1465,7 @@ ul{
 	text-align: center;
 	color: #fff;
 	font-size: 28px;
-	margin: 40px 0 0 0;
+	margin: 10px 0 0 0;
 	font-family: "Segoe UI", Tahoma, Helvetica;
 	font-size: 18px;
 	font-weight: bold;
@@ -1539,32 +1583,48 @@ a .boxButton{
 
 /*@media screen and (max-width:320px) and (min-width:50px)*/
 #filtroscont {
+<<<<<<< HEAD
     width: auto;
     margin: 25px auto 0px;
     height: 150px;    
+=======
+    width: 86%;
+    margin: 10px auto 0px;
+    height: 100px;
+    color: #999;
+>>>>>>> Visual changes for search functionality
     text-align: center;
 }
 
 
 /*@media screen and (max-width:480px) and (min-width:321px)*/
 /*@media screen and (max-width:320px) and (min-width:50px)*/
-#filtro {
+.filtro {
     width: 70px;
     border: 1px solid #999;
     font-size: 15px;
-    height: 15px;
-    padding: 25px;
+    height: 20px;
     margin-left: 12px;
-    margin-top: 15px;
+    margin-top: 10px;
     float: left;
+    padding: 0px 20px 20px;
 }
 
+.filtro:nth-child(odd) {
+	float: right;
+	margin-right: 0px;
+}
 
-#inputbox{
- height: 50px;
- width: 276px;	
- margin-top: 35px;
- margin-left: 0px;
+.filtro:nth-child(even) {
+	float: left;
+	margin-left: 0px;
+}
+
+#inputbox {
+    height: 50px;
+    width: 274px;
+    margin-top: 20px;
+    margin-left: 0px;
 }
 
 .creador{
