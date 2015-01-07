@@ -528,7 +528,7 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
     width: 1040px;
     margin: 35px auto 0px;   
     height: 80px;
-    color: #999;  
+    color: #000;  
     text-align: center;
     
 }
@@ -691,8 +691,7 @@ ul{
 #filtroscont {  	
     width: auto;
     margin: 35px auto 0px;   
-    height: 80px;
-    color: #999;  
+    height: 80px;     
     text-align: center;
     
 }
@@ -935,8 +934,7 @@ ul{
 #filtroscont {  	
     width: auto;
     margin: 45px auto 0px;   
-    height: 80px;
-    color: #999;  
+    height: 80px;    
     text-align: center;
     
 }
@@ -1179,8 +1177,7 @@ ul{
 #filtroscont {
     width: auto;
     margin: 25px auto 0px;
-    height: 150px;
-    color: #999;
+    height: 150px;    c
     text-align: center;
 }
 
@@ -1544,8 +1541,7 @@ a .boxButton{
 #filtroscont {
     width: auto;
     margin: 25px auto 0px;
-    height: 150px;
-    color: #999;
+    height: 150px;    
     text-align: center;
 }
 
