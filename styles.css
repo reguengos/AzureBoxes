@@ -524,22 +524,23 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
     margin: 10px 20px 10px 10px;
 }
 
-#filtroscont {
-  	min-width: 240px;
-    max-width: 1040px;
+#filtroscont {  	
     width: 1040px;
-    margin: 40px auto 0px;   
-    height: 50px;
-    color: #999;
-    border-spacing: 15px;
+    margin: 25px auto 0px;   
+    height: 80px;
+    color: #999;  
     text-align: center;
     
 }
 
 #filtro{
- height: 50px;
- width: 250px;
-border: 1px solid #999;
+	width: 200px;
+	border: 1px solid #999;
+	font-size: 18px;
+	height: 20px;
+	padding: 20px;
+	margin-left: 15px;
+	float:left;
 
 }
 
@@ -706,22 +707,23 @@ ul{
     margin-left: 30px;
 }
 
-#filtroscont {
-  	min-width: 240px;
-    max-width: 1040px;
-    width: 940px;
-    margin: 40px auto 0px;   
-    height: 50px;
-    color: #999;
-    border-spacing: 15px;
+#filtroscont {  	
+    width: auto;
+    margin: 25px auto 0px;   
+    height: 80px;
+    color: #999;  
     text-align: center;
     
 }
 
 #filtro{
- height: 50px;
- width: 250px;
-border: 1px solid #999;
+	width: 170px;
+	border: 1px solid #999;
+	font-size: 18px;
+	height: 20px;
+	padding: 20px;
+	margin-left: 15px;
+	float:left;
 }
 
 #inputbox{
@@ -957,22 +959,23 @@ ul{
     margin-left: 30px;
 }
 
-#filtroscont {
-  	min-width: 240px;
-    max-width: 1040px;
-    width: 720px;
-    margin: 40px auto 0px;   
-    height: 50px;
-    color: #999;
-    border-spacing: 15px;
+#filtroscont {  	
+    width: auto;
+    margin: 45px auto 0px;   
+    height: 80px;
+    color: #999;  
     text-align: center;
     
 }
 
 #filtro{
- height: 50px;
- width: 250px;
-border: 1px solid #999;
+	width: 120px;
+	border: 1px solid #999;
+	font-size: 16px;
+	height: 20px;
+	padding: 20px;
+	margin-left: 15px;
+	float:left;
 }
 
 #inputbox{
@@ -1207,22 +1210,25 @@ ul{
     margin-left: 30px;
 }
 
+/*@media screen and (max-width:480px) and (min-width:321px)*/
 #filtroscont {
-  	min-width: 240px;
-    max-width: 1040px;
-    width: 400px;
-    margin: 40px auto 0px;   
-    height: 50px;
+    width: auto;
+    margin: 25px auto 0px;
+    height: 150px;
     color: #999;
-    border-spacing: 15px;
     text-align: center;
-    
 }
 
-#filtro{
- height: 50px;
- width: 250px;
-border: 1px solid #999;
+/*@media screen and (max-width:480px) and (min-width:321px)*/
+#filtro {
+    width: 120px;
+    border: 1px solid #999;
+    font-size: 16px;
+    height: 20px;
+    padding: 20px;
+    margin-left: 27px;
+    margin-top: 15px;
+    float: left;
 }
 
 #inputbox{
@@ -1241,27 +1247,6 @@ float: left;
 }
 }
 
-#filtro{
- height: 50px;
- width: 250px;
-border: 1px solid #999;
-}
-
-#inputbox{
- height: 51px;
- width: 873px;	
- margin-left: -31px;
- margin-top: -11px;
-}
-
-@-moz-document url-prefix(){
-  #inputbox{
- height: 51px;
- width: 863px;	
-float: left;
- margin-top: -11px;
-}
-}
 
 .creador{
 	float: left;
@@ -1599,25 +1584,30 @@ a .boxButton{
     margin-left: 5px;
 }
 
+/*@media screen and (max-width:320px) and (min-width:50px)*/
 #filtroscont {
-  	min-width: 100px;
-    max-width: 1040px;
-    width: 200px;
-    margin: 40px auto 0px;   
-    height: 50px;
+    width: auto;
+    margin: 25px auto 0px;
+    height: 150px;
     color: #999;
-    border-spacing: 0px;
     text-align: center;
-    font-size: 13px !important;
-    
 }
 
-#filtro{
- height: 50px;
- width: 250px;
-border: 1px solid #999;
 
+/*@media screen and (max-width:480px) and (min-width:321px)*/
+/*@media screen and (max-width:320px) and (min-width:50px)*/
+#filtro {
+    width: 70px;
+    border: 1px solid #999;
+    font-size: 15px;
+    height: 20px;
+    padding: 25px;
+    margin-left: 12px;
+    margin-top: 15px;
+    float: left;
 }
+
+
 
 #inputbox{
  height: 51px;
