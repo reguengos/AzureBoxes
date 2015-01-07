@@ -1669,6 +1669,10 @@ a .boxButton{
 
 }
 
+.medalla {
+       margin-top: -15px !important; 
+}
+
 .mva a{
 	color: #fff;
 	text-decoration: none;
