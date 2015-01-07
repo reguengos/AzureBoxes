@@ -526,7 +526,7 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
 
 #filtroscont {  	
     width: 1040px;
-    margin: 25px auto 0px;   
+    margin: 35px auto 0px;   
     height: 80px;
     color: #999;  
     text-align: center;
@@ -545,20 +545,12 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
 }
 
 #inputbox{
- height: 51px;
- width: 963px;	
- margin-left: -31px;
- margin-top: -15px;
+ height: 50px;
+ width: 1037px;	
+ margin-top: 35px;
+ margin-left: 120px;
 }
 
-@-moz-document url-prefix(){
-  #inputbox{
- height: 51px;
- width: 963px;	
- float:left;
- margin-top: -11px;
-}
-}
 
 	
 
@@ -696,20 +688,9 @@ ul{
 
 
 
-#search-pane #search-scenario {
-    height: 35px;
-    font-size: 20px;
-    font-family: segoe ui;
-    float: left;
-    width: auto;
-    font-size: 20px;
-    margin-top: 10px;
-    margin-left: 30px;
-}
-
 #filtroscont {  	
     width: auto;
-    margin: 25px auto 0px;   
+    margin: 35px auto 0px;   
     height: 80px;
     color: #999;  
     text-align: center;
@@ -727,20 +708,12 @@ ul{
 }
 
 #inputbox{
- height: 51px;
- width: 873px;	
- margin-left: -31px;
- margin-top: -11px;
+ height: 50px;
+ width: 935px;	
+ margin-top: 35px;
+ margin-left: 0px;
 }
 
-@-moz-document url-prefix(){
-  #inputbox{
- height: 51px;
- width: 863px;	
-float: left;
- margin-top: -11px;
-}
-}
 
 .creador{
 	float: left;
@@ -979,20 +952,12 @@ ul{
 }
 
 #inputbox{
- height: 51px;
- width: 653px;	
- margin-left: -31px;
- margin-top: -11px;
+ height: 50px;
+ width: 716px;	
+ margin-top: 35px;
+ margin-left: 0px;
 }
 
-@-moz-document url-prefix(){
-  #inputbox{
- height: 51px;
- width: 643px;	
-float: left;
- margin-top: -11px;
-}
-}
 
 .creador{
 	float: left;
@@ -1232,19 +1197,10 @@ ul{
 }
 
 #inputbox{
- height: 51px;
- width: 333px;	
- margin-left: -31px;
- margin-top: -16px;
-}
-
-@-moz-document url-prefix(){
-  #inputbox{
- height: 51px;
- width: 330px;	
-float: left;
- margin-top: -16px;
-}
+ height: 50px;
+ width: 396px;	
+ margin-top: 35px;
+ margin-left: 0px;
 }
 
 
@@ -1600,7 +1556,7 @@ a .boxButton{
     width: 70px;
     border: 1px solid #999;
     font-size: 15px;
-    height: 20px;
+    height: 15px;
     padding: 25px;
     margin-left: 12px;
     margin-top: 15px;
@@ -1608,21 +1564,11 @@ a .boxButton{
 }
 
 
-
 #inputbox{
- height: 51px;
- width: 215px;	
- margin-left: -6px;
- margin-top: -19px;
-}
-
-@-moz-document url-prefix(){
-  #inputbox{
- height: 51px;
- width: 210px;	
- float: lef;
- margin-top: -18px;
-}
+ height: 50px;
+ width: 276px;	
+ margin-top: 35px;
+ margin-left: 0px;
 }
 
 .creador{
