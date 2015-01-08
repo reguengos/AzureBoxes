@@ -748,7 +748,7 @@ ul{
 }
 
 .filtro{
-	width: 170px;
+	width: 181px;
 	border: 1px solid #999;
 	font-size: 18px;
 	height: 20px;
@@ -845,6 +845,10 @@ ul{
 	display:inline-flex !important;
 	margin-left:5px;
 	float: left;
+}
+
+.not-third {
+	margin-right: 0px !important;
 }
 
 }
@@ -1001,7 +1005,7 @@ ul{
 }
 
 .filtro{
-	width: 120px;
+	width: 126px;
 	border: 1px solid #999;
 	font-size: 16px;
 	height: 20px;
