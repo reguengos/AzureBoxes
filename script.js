@@ -44,5 +44,14 @@ function filter() {
 		else {
 			$(this).addClass('not-third');
 		}
+		
+		if(((index)%2)==0){
+			$(this).addClass('derecha');
+		}
+		else{
+			$(this).addClass('izquierda');
+		}
+
+		}
 	});
 }
