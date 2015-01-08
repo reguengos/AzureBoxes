@@ -132,8 +132,24 @@ ul{
     float: left;
 }
 
-.boxclicker:nth-child(3n) .box {  
+.boxclicker:nth-child(3n) .box{  
 	margin-right: 0px;
+}
+
+.visible {
+	display: block;
+}
+
+.invisible {
+	display: none;
+}
+
+.third {
+	margin-right: 0px !important;
+}
+
+.not-third {
+	margin-right: 70px !important;
 }
 
 .boxTitle{

@@ -22,7 +22,27 @@ function blurText() {
 
 function filter() {
 	searchTerm = $('#inputbox').val();
+	
+	$('.box').removeClass('visible');
+	$('.box').removeClass('invisible');
+	$('.box').removeClass('third');
+	$('.box').removeClass('not-third');
 
 	$('.boxTitle:contains(' + searchTerm + ')').closest('.box').css('display', 'block');
+	$('.boxTitle:contains(' + searchTerm + ')').closest('.boxclicker').css('display', 'block');
+	$('.boxTitle:contains(' + searchTerm + ')').closest('.box').addClass('visible');
+	
 	$('.boxTitle').not(':contains(' + searchTerm + ')').closest('.box').css('display', 'none');
+	$('.boxTitle').not(':contains(' + searchTerm + ')').closest('.boxclicker').css('display', 'none');
+	$('.boxTitle').not(':contains(' + searchTerm + ')').closest('.box').addClass('invisible');
+	
+
+	$('.box.visible').each(function(index){
+		if(((index+1)%3)==0) {
+			$(this).addClass('third');
+		}
+		else {
+			$(this).addClass('not-third');
+		}
+	});
 }
