@@ -939,28 +939,6 @@ ul{
 	margin-right: 3%;
 }
 
-
-
-.izquierda{
-	width: 280px;
-	margin: 10px 0px;
-	height: auto;
-	overflow: hidden;
-	float: left;
-
-}
-
-.derecha{
-	width: 280px;
-	margin: 10px 0px;
-	height: auto;
-	overflow: hidden;
-	float: right;
-
-
-}
-
-
 .twitter-share-button{
 	width: 70px;
     	height: 20px;
