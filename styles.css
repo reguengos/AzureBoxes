@@ -568,7 +568,7 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
 
 #filtroscont {
     width: 1040px;
-    margin: 25px auto 0px;   
+    margin: 35px auto 0px;   
     height: 80px;
     color: #000;  
     height: 50px;
@@ -598,28 +598,26 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
 }
 
 #inputbox{
+<<<<<<< HEAD
 
+=======
+>>>>>>> parent of 7adac56... vuelve lupa
  height: 50px;
  width: 1035px;	
  margin-top: 20px;
  margin-left: 120px;
  margin-bottom: 15px;
+<<<<<<< HEAD
 
  height: 51px;
  width: 963px;	
  margin-left: -31px;
  margin-top: -15px;
 
+=======
+>>>>>>> parent of 7adac56... vuelve lupa
 }
 
-@-moz-document url-prefix(){
-  #inputbox{
- height: 51px;
- width: 963px;	
- float:left;
- margin-top: -11px;
-}
-}
 
 	
 
@@ -755,19 +753,9 @@ ul{
 
 
 
-#search-pane #search-scenario {
-    height: 35px;
-    font-size: 20px;
-    font-family: segoe ui;
-    float: left;
-    width: auto;
-    font-size: 20px;
-    margin-top: 10px;
-    margin-left: 30px;
-}
-
 #filtroscont {  	
     width: auto;
+<<<<<<< HEAD
 
     margin: 35px auto 0px;   
     height: 80px;     
@@ -776,6 +764,10 @@ ul{
     height: 80px;
     color: #999;  
 
+=======
+    margin: 35px auto 0px;   
+    height: 80px;     
+>>>>>>> parent of 7adac56... vuelve lupa
     text-align: center;
     
 }
@@ -791,28 +783,26 @@ ul{
 }
 
 #inputbox{
+<<<<<<< HEAD
 
+=======
+>>>>>>> parent of 7adac56... vuelve lupa
  height: 50px;
  width: 935px;	
  margin-top: 35px;
  margin-left: 0px;
  margin-bottom: 0px;
+<<<<<<< HEAD
 
  height: 51px;
  width: 873px;	
  margin-left: -31px;
  margin-top: -11px;
 
+=======
+>>>>>>> parent of 7adac56... vuelve lupa
 }
 
-@-moz-document url-prefix(){
-  #inputbox{
- height: 51px;
- width: 863px;	
-float: left;
- margin-top: -11px;
-}
-}
 
 .creador{
 	float: left;
@@ -1063,28 +1053,26 @@ ul{
 }
 
 #inputbox{
+<<<<<<< HEAD
 
+=======
+>>>>>>> parent of 7adac56... vuelve lupa
  height: 50px;
  width: 716px;	
  margin-top: 20px;
  margin-left: 0px;
  margin-bottom: 0px;
+<<<<<<< HEAD
 
  height: 51px;
  width: 653px;	
  margin-left: -31px;
  margin-top: -11px;
 
+=======
+>>>>>>> parent of 7adac56... vuelve lupa
 }
 
-@-moz-document url-prefix(){
-  #inputbox{
- height: 51px;
- width: 643px;	
-float: left;
- margin-top: -11px;
-}
-}
 
 .creador{
 	float: left;
@@ -1336,11 +1324,15 @@ ul{
 }
 
 #inputbox{
+<<<<<<< HEAD
 
+=======
+>>>>>>> parent of 7adac56... vuelve lupa
  height: 50px;
  width: 394px;	
  margin-top: 20px;
  margin-left: 0px;
+<<<<<<< HEAD
 
  height: 51px;
  width: 333px;	
@@ -1356,6 +1348,8 @@ float: left;
  margin-top: -16px;
 }
 
+=======
+>>>>>>> parent of 7adac56... vuelve lupa
 }
 
 
@@ -1714,10 +1708,13 @@ a .boxButton{
     border: 1px solid #999;
     font-size: 15px;
     height: 20px;
+<<<<<<< HEAD
 
 
     padding: 25px;
 
+=======
+>>>>>>> parent of 7adac56... vuelve lupa
     margin-left: 12px;
     margin-top: 10px;
     float: left;
@@ -1729,7 +1726,6 @@ a .boxButton{
 	margin-right: 0px;
 }
 
-<<<<<<< HEAD
 .filtro:nth-child(even) {
 	float: left;
 	margin-left: 0px;
@@ -1740,6 +1736,7 @@ a .boxButton{
     width: 274px;
     margin-top: 20px;
     margin-left: 0px;
+<<<<<<< HEAD
 }
 
 #inputbox{
@@ -1757,6 +1754,8 @@ a .boxButton{
  margin-top: -18px;
 }
 
+=======
+>>>>>>> parent of 7adac56... vuelve lupa
 }
 
 .creador{
