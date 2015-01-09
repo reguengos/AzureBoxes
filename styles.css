@@ -640,6 +640,10 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
 	text-align: center;
 }
 
+.not-third {
+	margin-right: 0px !important;
+}
+
 ul{
 	list-style-type:none;
 	padding: 0;
