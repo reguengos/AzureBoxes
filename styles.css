@@ -598,18 +598,18 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
 }
 
 #inputbox{
-<<<<<<< HEAD
+
  height: 50px;
  width: 1035px;	
  margin-top: 20px;
  margin-left: 120px;
  margin-bottom: 15px;
-=======
+
  height: 51px;
  width: 963px;	
  margin-left: -31px;
  margin-top: -15px;
->>>>>>> parent of 24a1fe1... correcion panel de busqueda, #chaulupa
+
 }
 
 @-moz-document url-prefix(){
@@ -768,14 +768,14 @@ ul{
 
 #filtroscont {  	
     width: auto;
-<<<<<<< HEAD
+
     margin: 35px auto 0px;   
     height: 80px;     
-=======
+
     margin: 25px auto 0px;   
     height: 80px;
     color: #999;  
->>>>>>> parent of 24a1fe1... correcion panel de busqueda, #chaulupa
+
     text-align: center;
     
 }
@@ -791,18 +791,18 @@ ul{
 }
 
 #inputbox{
-<<<<<<< HEAD
+
  height: 50px;
  width: 935px;	
  margin-top: 35px;
  margin-left: 0px;
  margin-bottom: 0px;
-=======
+
  height: 51px;
  width: 873px;	
  margin-left: -31px;
  margin-top: -11px;
->>>>>>> parent of 24a1fe1... correcion panel de busqueda, #chaulupa
+
 }
 
 @-moz-document url-prefix(){
@@ -1041,14 +1041,13 @@ ul{
 
 #filtroscont {  	
     width: auto;
-<<<<<<< HEAD
+
     margin: 45px auto 0px;   
     height: 80px;    
-=======
-    margin: 25px auto 0px;   
+        margin: 25px auto 0px;   
     height: 50px;
     color: #999;  
->>>>>>> Visual changes for search functionality
+
     text-align: center;
     
 }
@@ -1064,18 +1063,18 @@ ul{
 }
 
 #inputbox{
-<<<<<<< HEAD
+
  height: 50px;
  width: 716px;	
  margin-top: 20px;
  margin-left: 0px;
  margin-bottom: 0px;
-=======
+
  height: 51px;
  width: 653px;	
  margin-left: -31px;
  margin-top: -11px;
->>>>>>> parent of 24a1fe1... correcion panel de busqueda, #chaulupa
+
 }
 
 @-moz-document url-prefix(){
@@ -1242,7 +1241,7 @@ ul{
     overflow: hidden;
     text-align: center;
     color: #FFF;
-    margin: 10px 0px 0px;
+    margin: 20px 0px 0px;
     font-family: "Segoe UI",Tahoma,Helvetica;
     font-size: 18px;
     font-weight: bold;
@@ -1337,12 +1336,12 @@ ul{
 }
 
 #inputbox{
-<<<<<<< HEAD
+
  height: 50px;
  width: 394px;	
  margin-top: 20px;
  margin-left: 0px;
-=======
+
  height: 51px;
  width: 333px;	
  margin-left: -31px;
@@ -1356,7 +1355,7 @@ ul{
 float: left;
  margin-top: -16px;
 }
->>>>>>> parent of 24a1fe1... correcion panel de busqueda, #chaulupa
+
 }
 
 
@@ -1715,10 +1714,10 @@ a .boxButton{
     border: 1px solid #999;
     font-size: 15px;
     height: 20px;
-<<<<<<< HEAD
-=======
+
+
     padding: 25px;
->>>>>>> parent of 24a1fe1... correcion panel de busqueda, #chaulupa
+
     margin-left: 12px;
     margin-top: 10px;
     float: left;
@@ -1741,7 +1740,7 @@ a .boxButton{
     width: 274px;
     margin-top: 20px;
     margin-left: 0px;
-=======
+}
 
 #inputbox{
  height: 51px;
@@ -1757,7 +1756,7 @@ a .boxButton{
  float: lef;
  margin-top: -18px;
 }
->>>>>>> parent of 24a1fe1... correcion panel de busqueda, #chaulupa
+
 }
 
 .creador{
