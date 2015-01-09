@@ -571,13 +571,14 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
 
 .search-lupa {
     width: 51px;
-    height: 54px;
+    height: 55px;
     border: 1px solid #999;
-    left: -4px;
+    left: -5px;
     position: relative;
-    top: -1px;
+    top: -4px;
     display: inline-table;
 }
+
 
 #inputbox {
     height: 50px;
@@ -595,7 +596,6 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
     top: 9px;
     position: relative;
 }
-
 
 	
 
@@ -708,7 +708,7 @@ ul{
 
 @-moz-document url-prefix(){
   .IN-widget{
-	margin-left:73px;
+	margin-left:70px;
 }
 }
 
@@ -753,25 +753,25 @@ ul{
 	float:left;
 }
 
+/*@media screen and (max-width:1024px) and (min-width:769px)*/
 .search-lupa {
     width: 51px;
     height: 54px;
     border: 1px solid #999;
-    left: -4px;
+    left: -5px;
     position: relative;
-    top: -1px;
+    top: -3px;
+    display: inline-table;
 }
 
-/*@media screen and (max-width:1024px) and (min-width:769px)*/
+
 #inputbox {
     height: 50px;
-    width: 878px;
+    width: 876px;
     margin-top: 20px;
     margin-left: 0px;
     margin-bottom: 15px;
 }
-
-
 
 .creador{
 	float: left;
@@ -1005,20 +1005,20 @@ ul{
 	float:left;
 }
 
-/*@media screen and (max-width:768px) and (min-width:481px)*/
 .search-lupa {
     width: 51px;
-    height: 54px;
+    height: 53px;
     border: 1px solid #999;
     left: -5px;
     position: relative;
-    top: -1px;
+    top: -3px;
+    display: inline-table;
 }
 
 /*@media screen and (max-width:768px) and (min-width:481px)*/
 #inputbox {
     height: 50px;
-    width: 658px;
+    width: 656px;
     margin-top: 20px;
     margin-left: 0px;
     margin-bottom: 15px;
@@ -1267,17 +1267,17 @@ ul{
 
 .search-lupa {
     width: 51px;
-    height: 54px;
+    height: 53px;
     border: 1px solid #999;
     left: -5px;
     position: relative;
-    top: -1px;
+    top: -3px;
+    display: inline-table;
 }
-
 /*@media screen and (max-width:480px) and (min-width:321px)*/
 #inputbox {
     height: 50px;
-    width: 338px;
+    width: 336px;
     margin-top: 20px;
     margin-left: 0px;
     margin-bottom: 15px;
@@ -1648,18 +1648,18 @@ a .boxButton{
 /*@media screen and (max-width:320px) and (min-width:50px)*/
 .search-lupa {
     width: 51px;
-    height: 54px;
+    height: 53px;
     border: 1px solid #999;
     left: -5px;
     position: relative;
-    top: -1px;
+    top: -3px;
+    display: inline-table;
 }
-
 
 /*@media screen and (max-width:320px) and (min-width:50px)*/
 #inputbox {
     height: 50px;
-    width: 218px;
+    width: 216px;
     margin-top: 20px;
     margin-left: 0px;
     margin-bottom: 15px;
