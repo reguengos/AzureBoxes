@@ -568,7 +568,7 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
 
 #filtroscont {
     width: 1040px;
-    margin: 35px auto 0px;   
+    margin: 25px auto 0px;   
     height: 80px;
     color: #000;  
     height: 50px;
@@ -598,13 +598,28 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
 }
 
 #inputbox{
+<<<<<<< HEAD
  height: 50px;
  width: 1035px;	
  margin-top: 20px;
  margin-left: 120px;
  margin-bottom: 15px;
+=======
+ height: 51px;
+ width: 963px;	
+ margin-left: -31px;
+ margin-top: -15px;
+>>>>>>> parent of 24a1fe1... correcion panel de busqueda, #chaulupa
 }
 
+@-moz-document url-prefix(){
+  #inputbox{
+ height: 51px;
+ width: 963px;	
+ float:left;
+ margin-top: -11px;
+}
+}
 
 	
 
@@ -740,10 +755,27 @@ ul{
 
 
 
+#search-pane #search-scenario {
+    height: 35px;
+    font-size: 20px;
+    font-family: segoe ui;
+    float: left;
+    width: auto;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
 #filtroscont {  	
     width: auto;
+<<<<<<< HEAD
     margin: 35px auto 0px;   
     height: 80px;     
+=======
+    margin: 25px auto 0px;   
+    height: 80px;
+    color: #999;  
+>>>>>>> parent of 24a1fe1... correcion panel de busqueda, #chaulupa
     text-align: center;
     
 }
@@ -759,13 +791,28 @@ ul{
 }
 
 #inputbox{
+<<<<<<< HEAD
  height: 50px;
  width: 935px;	
  margin-top: 35px;
  margin-left: 0px;
  margin-bottom: 0px;
+=======
+ height: 51px;
+ width: 873px;	
+ margin-left: -31px;
+ margin-top: -11px;
+>>>>>>> parent of 24a1fe1... correcion panel de busqueda, #chaulupa
 }
 
+@-moz-document url-prefix(){
+  #inputbox{
+ height: 51px;
+ width: 863px;	
+float: left;
+ margin-top: -11px;
+}
+}
 
 .creador{
 	float: left;
@@ -1017,13 +1064,28 @@ ul{
 }
 
 #inputbox{
+<<<<<<< HEAD
  height: 50px;
  width: 716px;	
  margin-top: 20px;
  margin-left: 0px;
  margin-bottom: 0px;
+=======
+ height: 51px;
+ width: 653px;	
+ margin-left: -31px;
+ margin-top: -11px;
+>>>>>>> parent of 24a1fe1... correcion panel de busqueda, #chaulupa
 }
 
+@-moz-document url-prefix(){
+  #inputbox{
+ height: 51px;
+ width: 643px;	
+float: left;
+ margin-top: -11px;
+}
+}
 
 .creador{
 	float: left;
@@ -1275,10 +1337,26 @@ ul{
 }
 
 #inputbox{
+<<<<<<< HEAD
  height: 50px;
  width: 394px;	
  margin-top: 20px;
  margin-left: 0px;
+=======
+ height: 51px;
+ width: 333px;	
+ margin-left: -31px;
+ margin-top: -16px;
+}
+
+@-moz-document url-prefix(){
+  #inputbox{
+ height: 51px;
+ width: 330px;	
+float: left;
+ margin-top: -16px;
+}
+>>>>>>> parent of 24a1fe1... correcion panel de busqueda, #chaulupa
 }
 
 
@@ -1637,6 +1715,10 @@ a .boxButton{
     border: 1px solid #999;
     font-size: 15px;
     height: 20px;
+<<<<<<< HEAD
+=======
+    padding: 25px;
+>>>>>>> parent of 24a1fe1... correcion panel de busqueda, #chaulupa
     margin-left: 12px;
     margin-top: 10px;
     float: left;
@@ -1648,6 +1730,7 @@ a .boxButton{
 	margin-right: 0px;
 }
 
+<<<<<<< HEAD
 .filtro:nth-child(even) {
 	float: left;
 	margin-left: 0px;
@@ -1658,6 +1741,23 @@ a .boxButton{
     width: 274px;
     margin-top: 20px;
     margin-left: 0px;
+=======
+
+#inputbox{
+ height: 51px;
+ width: 215px;	
+ margin-left: -6px;
+ margin-top: -19px;
+}
+
+@-moz-document url-prefix(){
+  #inputbox{
+ height: 51px;
+ width: 210px;	
+ float: lef;
+ margin-top: -18px;
+}
+>>>>>>> parent of 24a1fe1... correcion panel de busqueda, #chaulupa
 }
 
 .creador{
