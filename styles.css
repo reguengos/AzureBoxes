@@ -678,7 +678,7 @@ ul{
 	text-align: center;
 	color: #fff;
 	font-size: 28px;
-	margin: 40px auto 0 auto;
+	margin: 0px auto 0 auto;
 	font-family: "Segoe UI", Tahoma, Helvetica;
 	font-size: 18px;
 	font-weight: bold;
@@ -933,7 +933,7 @@ ul{
     overflow: hidden;
     text-align: center;
     color: #FFF;
-    margin: 40px 10px 25px;
+    margin: 0px 10px 25px;
     font-family: "Segoe UI",Tahoma,Helvetica;
     font-size: 18px;
     font-weight: bold;
@@ -1012,7 +1012,7 @@ ul{
     border: 1px solid #999;
     left: -5px;
     position: relative;
-    top: -2px;
+    top: -1px;
 }
 
 /*@media screen and (max-width:768px) and (min-width:481px)*/
@@ -1180,7 +1180,7 @@ ul{
     overflow: hidden;
     text-align: center;
     color: #FFF;
-    margin: 10px 0px 0px;
+    margin: 0px 0px 0px;
     font-family: "Segoe UI",Tahoma,Helvetica;
     font-size: 18px;
     font-weight: bold;
@@ -1504,7 +1504,7 @@ ul{
 	text-align: center;
 	color: #fff;
 	font-size: 28px;
-	margin: 10px 0 0 0;
+	margin: 0px 0 0 0;
 	font-family: "Segoe UI", Tahoma, Helvetica;
 	font-size: 18px;
 	font-weight: bold;
@@ -1652,7 +1652,7 @@ a .boxButton{
     border: 1px solid #999;
     left: -5px;
     position: relative;
-    top: -2px;
+    top: -1px;
 }
 
 
