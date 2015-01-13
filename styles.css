@@ -584,13 +584,28 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
 }
 
 #inputbox {
-    height: 51px;
+    height: 50px;
     width: 953px;
     margin-top: 20px;
     margin-left: 120px;
     margin-bottom: 15px;
     padding-left: 30px;
+    color: #999;
+    font-size: 18px;
+     -moz-box-height: 51px;  
+
 }
+
+@-moz-document url-prefix(){
+.search-lupa{
+    height: 52px; 
+    top: 20px;
+
+}
+}
+
+
+
 
 
 	
@@ -752,19 +767,29 @@ ul{
 
 /*@media screen and (max-width:1024px) and (min-width:769px)*/
 .search-lupa {  
-    height: 53px;    
+    height: 54px;    
     top: 21px;   
+}
+
+@-moz-document url-prefix(){
+.search-lupa{
+    height: 52px !important; 
+    top: 20px !important;
+
+}
 }
 
 
 #inputbox {
     height: 50px;
-    width: 875px;
+    width: 846px;
     margin-top: 20px;
     margin-left: 0px;
     margin-bottom: 15px;
+    padding-left: 30px;
+    color: #999;
+    font-size: 18px;
 }
-
 .creador{
 	float: left;
 	margin-top: 10px;
@@ -998,14 +1023,23 @@ ul{
 }
 
 .search-lupa {  
-    height: 53px;    
+    height: 54px;    
     top: 21px;   
 }
+
+@-moz-document url-prefix(){
+.search-lupa{
+    height: 52px !important; 
+    top: 19px !important;
+
+}
+}
+
 
 /*@media screen and (max-width:768px) and (min-width:481px)*/
 #inputbox {
     height: 50px;
-    width: 655px;
+    width: 628px;
     margin-top: 20px;
     margin-left: 0px;
     margin-bottom: 15px;
@@ -1253,13 +1287,21 @@ ul{
 }
 
 .search-lupa {  
-    height: 53px;    
+    height: 54px;    
     top: 21px;   
+}
+
+@-moz-document url-prefix(){
+.search-lupa{
+    height: 52px !important; 
+    top: 19px !important;
+
+}
 }
 
 #inputbox {
     height: 50px;
-    width: 335px;
+    width: 308px;
     margin-top: 20px;
     margin-left: 0px;
     margin-bottom: 15px;
@@ -1629,17 +1671,26 @@ a .boxButton{
 
 /*@media screen and (max-width:320px) and (min-width:50px)*/
 .search-lupa {  
-    height: 53px;    
+    height: 54px;    
     top: 21px;   
+}
+
+@-moz-document url-prefix(){
+.search-lupa{
+    height: 51px !important; 
+    top: 19px !important;
+
+}
 }
 
 /*@media screen and (max-width:320px) and (min-width:50px)*/
 #inputbox {
     height: 50px;
-    width: 215px;
+    width: 213px;
     margin-top: 20px;
     margin-left: 0px;
     margin-bottom: 15px;
+    padding-left: 5px;
 }
 .creador{
 	float: left;
