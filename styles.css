@@ -584,13 +584,13 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
 }
 
 #inputbox {
-    height: 50px;
-    width: 981px;
+    height: 51px;
+    width: 953px;
     margin-top: 20px;
     margin-left: 120px;
     margin-bottom: 15px;
+    padding-left: 30px;
 }
-
 
 
 	
@@ -1311,7 +1311,7 @@ ul{
 	padding: 20px 0px;	
 	color: #fff;
 	font-weight: bold;
-	font-size: 11px;
+	font-size: 10px;
 	margin-top: 15px;
 	background-image: url(images/arrow-right.png);
 	background-repeat: no-repeat;	
