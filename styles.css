@@ -634,7 +634,7 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
 	background-size: 940px;
 	background-repeat: repeat-x;
 	background-position:left top;
-	margin-bottom:-65px;
+	margin-bottom:-35px;
 }
 
 #utiliza{
@@ -884,7 +884,7 @@ ul{
 	background-image: url(images/banner.jpg);
 	background-repeat: repeat-x;
 	background-position: left top;
-	margin-bottom: -160px;
+	margin-bottom: -105px;
 }
 
 .not-third {
