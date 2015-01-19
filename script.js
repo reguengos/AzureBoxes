@@ -53,5 +53,5 @@ function order(){
 }
 
 $(document).ready(function() {
-  $('#vert').val('c\no\nm\ne\nn\nt\na\nr\ni\no\ns');   
+  $('#vert').val('C\no\nm\ne\nn\nt\na\nr\ni\no\ns');   
 });
