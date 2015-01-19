@@ -548,8 +548,7 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
     height: 50px;
     color: #999;
     text-align: center;
-    margin: 20px auto 0px;
-    margin-bottom: 15px;
+    margin: 20px auto 20px;    
 }
 
 .filtro{
@@ -572,39 +571,42 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
 }
 
 .search-lupa {
-    width: 52px;
-    height: 55px;
-    border: 1px solid #999;
-    left: -5px;
-    top: 22px;
+    width: 51px;
+    height: 54px;
+    border: 1px solid #999;  
+    margin-top: 20px;
     display: inline-table;
     background-image: url(images/search.png);
     background-repeat: no-repeat;
     background-size: 30px;
-    background-position: center center;
-    position: relative;
+    background-position: center center; 
+    float: right;
+}
+
+@-moz-document url-prefix(){
+.search-lupa{
+    height: 52px;   
+    width: 52px !important;
+
+}
+}
+
+#search-scenario{
+	width: 1160px;
 }
 
 #inputbox {
     height: 50px;
-    width: 951px;
+    width: 953px;
     margin-top: 20px;
     margin-left: 120px;
     margin-bottom: 15px;
     padding-left: 30px;
     color: #999;
     font-size: 18px;
-     -moz-box-height: 51px;  
-
 }
 
-@-moz-document url-prefix(){
-.search-lupa{
-    height: 52px; 
-    top: 20px;
 
-}
-}
 
 
 
@@ -709,8 +711,8 @@ ul{
 
 .twitter-share-button{
 	width: 70px;
-    	height: 20px;
-    	margin:0;
+    height: 20px;
+    margin:0;
 	float: left;
 }
 
@@ -725,15 +727,12 @@ ul{
 }
 }
 
-
 .fb_iframe_widget{
 	width: 130px;
 	display:inline-flex !important;
 	margin-left:80px;
 	float: left;
 }
-
-
 
 #footer{
 	background-size: auto;
@@ -746,18 +745,16 @@ ul{
 	font-size: 12px;
 }
 
-
-
 #filtroscont {  	
     width: auto;
-    margin: 35px auto 0px;   
+    margin: 20px auto 0px;   
     height: 80px;     
     text-align: center;
     
 }
 
 .filtro{
-	width: 170px;
+	width: 181.5px;
 	border: 1px solid #999;
 	font-size: 18px;
 	height: 20px;
@@ -766,32 +763,25 @@ ul{
 	float:left;
 }
 
-
-/*@media screen and (max-width:1024px) and (min-width:769px)*/
 .search-lupa {  
-    height: 54px;    
-    top: 21px;   
-}
-
-@-moz-document url-prefix(){
-.search-lupa{
-    height: 52px !important; 
-    top: 20px !important;
-
-}
+    width: 51px; 
 }
 
 
 #inputbox {
     height: 50px;
-    width: 840px;
-    margin-top: 20px;
-    margin-left: 0px;
-    margin-bottom: 15px;
+    width: 853px;   
+    margin-left: 0px; 
     padding-left: 30px;
     color: #999;
     font-size: 18px;
+    margin-bottom: 0px;
 }
+
+#search-scenario{
+	width: auto;
+}
+
 .creador{
 	float: left;
 	margin-top: 10px;
@@ -830,7 +820,7 @@ ul{
 .mva {
 	width: 515px;
 	height: 20px;
-		float: left;		
+	float: left;		
 	background-color: #000000;
 	padding: 20px 0px;	
 	color: #fff;
@@ -1004,18 +994,15 @@ ul{
 	font-size: 12px;
 }
 
-
-
-
 #filtroscont {  	
     width: auto;
-    margin: 45px auto 0px;   
+    margin: 25px auto 0px;   
     height: 80px; 
      text-align: center;   
 }
 
 .filtro{
-	width: 120px;
+	width: 126.5px;
 	border: 1px solid #999;
 	font-size: 16px;
 	height: 20px;
@@ -1024,29 +1011,17 @@ ul{
 	float:left;
 }
 
-.search-lupa {  
-    height: 54px;    
-    top: 21px;   
-}
-
-@-moz-document url-prefix(){
-.search-lupa{
-    height: 52px !important; 
-    top: 19px !important;
-
-}
-}
-
-
-/*@media screen and (max-width:768px) and (min-width:481px)*/
 #inputbox {
     height: 50px;
-    width: 620px;
+    width: 633px;
     margin-top: 20px;
     margin-left: 0px;
-    margin-bottom: 15px;
+    margin-bottom: 0px;
 }
 
+#search-scenario{
+	width: auto;
+}
 
 .creador{
 	float: left;
@@ -1254,13 +1229,10 @@ ul{
 }
 
 
-
-/*@media screen and (max-width:480px) and (min-width:321px)*/
-#filtroscont {
-    margin: 25px auto 0px;
+#filtroscont {    
     height: 150px;
     width: 90%;
-    margin: 5px auto 0px;
+    margin: 0px auto 0px;
     height: 150px;
     color: #999;
     text-align: center;
@@ -1288,29 +1260,19 @@ ul{
 	margin-left: 0px;
 }
 
-.search-lupa {  
-    height: 54px;    
-    top: 21px;   
-}
-
-@-moz-document url-prefix(){
-.search-lupa{
-    height: 52px !important; 
-    top: 19px !important;
-
-}
+#search-scenario{
+	width: auto;
 }
 
 /*@media screen and (max-width:480px) and (min-width:321px)*/
 #inputbox {
     height: 50px;
-    width: 325px;
+    width: 333px;
     margin-top: 20px;
     margin-left: 0px;
     margin-bottom: 15px;
     padding-left: 10px;
 }
-
 
 
 .creador{
@@ -1639,20 +1601,15 @@ a .boxButton{
 	float: left;
 }
 
-/*@media screen and (max-width:320px) and (min-width:50px)*/
 #filtroscont {
-    margin: 25px auto 0px;
     height: 150px;    
     width: 86%;
-    margin: 10px auto 0px;
+    margin: 10px auto 15px;
     height: 100px;
     color: #999;
     text-align: center;
 }
 
-
-/*@media screen and (max-width:480px) and (min-width:321px)*/
-/*@media screen and (max-width:320px) and (min-width:50px)*/
 .filtro {
     width: 70px;
     border: 1px solid #999;
@@ -1674,28 +1631,18 @@ a .boxButton{
 	margin-left: 0px;
 }
 
-/*@media screen and (max-width:320px) and (min-width:50px)*/
-.search-lupa {
-    height: 54px;
-    top: 24px;
-}
 
-
-@-moz-document url-prefix(){
-.search-lupa{
-    height: 51px !important; 
-    top: 22px !important;
-
-}
+#search-scenario{
+	width: auto;
 }
 
 /*@media screen and (max-width:320px) and (min-width:50px)*/
 #inputbox {
     height: 50px;
-    width: 210px;
+    width: 218px;
     margin-top: 20px;
     margin-left: 0px;
-    margin-bottom: 15px;
+    margin-bottom: 0px;
     padding-left: 5px;
     font-size: 10px;
 }
