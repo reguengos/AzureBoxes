@@ -70,7 +70,7 @@ function orderByTime() {
 	$('#time').addClass('active');
 	
 	$('.boxclicker').sortElements(function(a, b){
-		return Number($(a).attr("time")) < Number($(b).attr("time")) ? 1 : -1;
+		return Number($(a).attr("time")) > Number($(b).attr("time")) ? 1 : -1;
 	});
 }
 
