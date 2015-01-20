@@ -43,7 +43,7 @@ body{
 .sugg {
     cursor: pointer;
     background-image: url(images/sugg.png);
-    top: 50%;
+    top: 40%;
     display: block;
     margin: 0;
     position: fixed;
