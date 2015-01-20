@@ -403,6 +403,20 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
 	font-family: "Segoe UI", Tahoma, Helvetica;
 }
 
+.popupcontacto{
+	width: 562px;
+	height: auto;
+	margin-top: -70px;
+	overflow: hidden;
+	padding-top: 102px;
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-color: #d2d2d2;
+	color: #1b1b1a;
+	font-size: 15px;
+	font-family: "Segoe UI", Tahoma, Helvetica;
+}
+
 .popupTitle{
 	width: 562px;
 	height: auto;
@@ -721,6 +735,10 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
 	margin-bottom:-35px;
 }
 
+.popupcontacto{
+	margin-top: -50px;
+}
+
 #utiliza{
 	width: auto;
 }
@@ -971,6 +989,10 @@ ul{
 	margin-bottom: -105px;
 }
 
+.popupcontacto{
+	margin-top: 0px;
+}
+
 .not-third {
 	margin-right: 0px !important;
 }
@@ -1203,7 +1225,9 @@ ul{
 	font-size: 16px;
 }
 
-
+.popupcontacto{
+	margin-top: 0px;
+}
 
 #containerMA #header{
 	width: 100%;
@@ -1528,6 +1552,10 @@ ul{
 	background-position: center top;
 	margin-bottom: 0px;
 	background-size: 100%;
+}
+
+.popupcontacto{
+	margin-top: 0px;
 }
 
 ul{
