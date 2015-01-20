@@ -48,12 +48,6 @@ function filter() {
 	});
 }
 
-function order(){
-
-	
-}
-
-
 
     console.log(document);
     var form = document.getElementById("input_mensj");
@@ -70,19 +64,13 @@ function order(){
           data[input.name] = input.value;
         }
       }
+  }
 
     function send(){
      $.ajax({
              type: "POST",
              url: "https://sendgrid.com/api/mail.send.json",
-             data: JSON.stringify(data),
-             api_user: "azure_5f3831ea10a61e05956d9d7874210834@azure.com",
-             api_key: "56V1nAelM4oPjbT",
-             to: "b.straub@outlook.com",
-             toname: "AzureBoxes",
-             subject: "Contacto AzureBoxes",
-             text: "prueba",
-             from: "b.straub@outlook.com",
+             data: "api_user=azure_5f3831ea10a61e05956d9d7874210834@azure.com&api_key=56V1nAelM4oPjbT&to=b.straub@outlook.com&toname=AzureBoxes&subject=Contacto AzureBoxes&text=prueba&from=b.straub@outlook.com",             
              contentType: "application/json; charset=utf-8",
              crossDomain: true,
              dataType: "json",
@@ -98,5 +86,8 @@ function order(){
              }
           });
     }
+
+
+
 
 
