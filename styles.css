@@ -43,7 +43,7 @@ body{
 .sugg {
     cursor: pointer;
     background-image: url(images/sugg.png);
-    top: 20%;
+    top: 50%;
     display: block;
     margin: 0;
     position: fixed;
@@ -1604,7 +1604,9 @@ ul{
     width: auto;    
 }
 
-
+.sugg {
+   top: 20%;
+}
 
 
 }
@@ -1620,6 +1622,10 @@ ul{
 	margin: 0 auto;
 	font-family: "Segoe UI Light", Tahoma, Helvetica;
 	font-size: 16px;
+}
+
+.sugg {
+   top: 20%;
 }
 
 #containerMA #header{
