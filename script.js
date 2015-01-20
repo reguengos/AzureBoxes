@@ -6,6 +6,11 @@ $('#inputbox').on('focus', eraseText);
 $('#inputbox').on('blur', blurText);
 $('#inputbox').on('keyup', filter);
 
+$('#suggested').on('click', sortnormal);
+$('#morerecent').on('click', sortdate);
+$('#time').on('click', sorttime);
+$('#title').on('click', sorttitle);
+
 
 function eraseText() {
 	search = $('#inputbox');
@@ -49,7 +54,17 @@ function filter() {
 }
 
 
+function sortnormal(){
+}
 
+function sortdate(){
+}
+
+function sorttime(){
+}
+
+function sorttitle(){
+}
 
 
 
