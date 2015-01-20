@@ -61,7 +61,7 @@ function orderByDate() {
 	$('#date').addClass('active');
 	
 	$('.boxclicker').sortElements(function(a, b){
-		return Number($(a).attr("dateOrder")) < Number($(b).attr("dateOrder")) ? 1 : -1;
+		return Number($(a).attr("date")) < Number($(b).attr("date")) ? 1 : -1;
 	});
 }
 
