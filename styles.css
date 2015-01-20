@@ -1626,6 +1626,9 @@ ul{
 
 .sugg {
    top: 10%;
+   background-image: url(images/sugg2.png);
+   right: 0px;
+   left: inherit;
 }
 
 #containerMA #header{
