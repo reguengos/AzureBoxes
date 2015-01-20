@@ -2306,7 +2306,15 @@
 
 			<a href="#close" title="Close" class="close">
 			<button id="boton" class="button_feed"> <strong>ENVIAR</strong> </button>
+			
 			</a>
+
+			<?php
+			if (isset($_POST['boton']))
+			{
+     		send();
+			}
+			?>
 
 			<div class="about_feed"> Para sugerencias o feedback: <strong>azureboxes@microsoft.com</strong> </div>
 
