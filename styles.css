@@ -1601,8 +1601,7 @@ ul{
 
 
 .popupcontacto {
-    width: auto;
-    margin-top: -10px;    
+    width: auto;      
 }
 
 .sugg {
@@ -1645,7 +1644,8 @@ ul{
 }
 
 .popupcontacto{
-	margin-top: 0px;
+	margin-top: -10px;
+
 }
 
 ul{
