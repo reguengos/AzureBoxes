@@ -89,10 +89,10 @@ require_once("email.php");
 
 
 	<div id="filtroscont">
-		  <div id="suggested" class="filtro primero">   SUGERIDOS </div>
-		  <div id="morerecent" class="filtro">   MAS RECIENTES</div>
-		  <div id="time" class="filtro">   TIEMPO</div>
-		  <div id="title" class="filtro ultimo">   TITULO</div>
+		  <div id="suggested" class="filtro primero" onclick="orderBySuggested();">   SUGERIDOS </div>
+		  <div id="date" class="filtro" onclick="orderByDate();">   MAS RECIENTES</div>
+		  <div id="time" class="filtro" onclick="orderByTime();">   TIEMPO</div>
+		  <div id="title" class="filtro ultimo" onclick="orderByName();">   TITULO</div>
 	</div>
 
 	

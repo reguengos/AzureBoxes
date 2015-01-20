@@ -6,12 +6,6 @@ $('#inputbox').on('focus', eraseText);
 $('#inputbox').on('blur', blurText);
 $('#inputbox').on('keyup', filter);
 
-$('#suggested').on('click', sortnormal);
-$('#morerecent').on('click', sortdate);
-$('#time').on('click', sorttime);
-$('#title').on('click', sorttitle);
-
-
 function eraseText() {
 	search = $('#inputbox');
 	if(search.val() == 'Encuentra el escenario que estas buscando..') {
@@ -53,17 +47,40 @@ function filter() {
 	});
 }
 
-
-function sortnormal(){
+function orderBySuggested() {
+	$('#filtroscont .filtro').removeClass('active');
+	$('#suggested').addClass('active');
+	
+	$('.boxclicker').sortElements(function(a, b){
+		return Number($(a).attr("suggested")) > Number($(b).attr("suggested")) ? 1 : -1;
+	});
 }
 
-function sortdate(){
+function orderByDate() {
+	$('#filtroscont .filtro').removeClass('active');
+	$('#date').addClass('active');
+	
+	$('.boxclicker').sortElements(function(a, b){
+		return Number($(a).attr("dateOrder")) < Number($(b).attr("dateOrder")) ? 1 : -1;
+	});
 }
 
-function sorttime(){
+function orderByTime() {
+	$('#filtroscont .filtro').removeClass('active');
+	$('#time').addClass('active');
+	
+	$('.boxclicker').sortElements(function(a, b){
+		return Number($(a).attr("time")) < Number($(b).attr("time")) ? 1 : -1;
+	});
 }
 
-function sorttitle(){
+function orderByName() {
+	$('#filtroscont .filtro').removeClass('active');
+	$('#title').addClass('active');
+	
+	$('.boxclicker').sortElements(function(a, b){
+		return $(a).find(".boxTitle").text().trim() > $(b).find(".boxTitle").text().trim() ? 1 : -1;
+	});
 }
 
 //CHOREADO DE:http://james.padolsey.com/javascript/sorting-elements-with-jquery/
@@ -112,6 +129,5 @@ jQuery.fn.sortElements = (function(){
     };
  
 })();
-
 
 

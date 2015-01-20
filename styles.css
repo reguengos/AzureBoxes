@@ -657,6 +657,11 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
 
 }
 
+.filtro.active {
+	background-color: black;
+	color: white;
+}
+
 .filtro.primero {
 	margin-left: 0px;
 }
