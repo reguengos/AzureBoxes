@@ -52,6 +52,3 @@ function order(){
 	
 }
 
-$(document).ready(function() {
-  $('#vert').val('C\no\nm\ne\nn\nt\na\nr\ni\no\ns');   
-});
