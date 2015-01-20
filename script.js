@@ -5,6 +5,7 @@ jQuery.expr[':'].contains = function(a, i, m) {
 $('#inputbox').on('focus', eraseText);
 $('#inputbox').on('blur', blurText);
 $('#inputbox').on('keyup', filter);
+$('#boton').on('click',send);
 
 function eraseText() {
 	search = $('#inputbox');
