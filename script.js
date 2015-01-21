@@ -130,4 +130,13 @@ jQuery.fn.sortElements = (function(){
  
 })();
 
+function send(){
+
+	search_nombre = $('#input_nombre');
+	search_body = $('#input_mensj');
+	window.location.href = "mailto:azureboxes@microsoft.com?subject=Contacto AzureBoxes&body=" + "Nombre: " + search_nombre.val() + "%0D%0A" + "%0D%0A" + search_body.val();
+
+	
+}
+
 

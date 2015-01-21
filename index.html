@@ -2295,18 +2295,14 @@ require_once("email.php");
 
 			<div class="feedback"> Nombre
 			<input id="input_nombre" type="text" name="nombre" value=""> 
-			</div>
-
-			<div class="feedback"> Email 
-			<input id="input_email" type="text" name="email" value=""> 
-			</div>
+			</div>			
 
 			<div class="feedback_mensj"> Mensaje 
 			<textarea id="input_mensj" type="text" rows="5" name="mensj" value=""> </textarea>
 			</div>
 
 			<a href="#close" title="Close">
-			<button id="boton" class="button_feed"> <strong>ENVIAR</strong> </button>			
+			<button id="boton" class="button_feed" onclick="send();"> <strong>ENVIAR</strong> </button>			
 			</a>
 
 			<div class="about_feed"> Para sugerencias o feedback: <strong>azureboxes@microsoft.com</strong> </div>

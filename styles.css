@@ -2047,9 +2047,15 @@ a .boxButton{
 
 /*@media screen and (max-width:480px) and (min-width:321px)*/
 .about_feed {
-    visibility: hidden;
-    width: 0px;
-    height: 0px;
+   	float: left;
+	margin-left: 30px;
+	width: 222px;
+	background-color: rgb(37, 57, 121);
+	color: white;
+	height: 50px;
+	text-align: center;
+	padding-top: 7px;	
+	margin-bottom: 20px;
 }
 
 
