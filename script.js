@@ -134,8 +134,8 @@ function send(){
 
 	search_nombre = $('#input_nombre');
 	search_body = $('#input_mensj');
-	search_body = search_body.val().replace(/\n/g, "%0D%0A");
-	window.location.href = "mailto:azureboxes@microsoft.com?subject=Contacto AzureBoxes&body=" + "Nombre: " + search_nombre.val() + "%0D%0A" + "%0D%0A" + search_body.val();
+	search_body.val = search_body.val().replace(/\n/g, "%0D%0A");
+	window.location.href = "mailto:azureboxes@microsoft.com?subject=Contacto AzureBoxes&body=" + "Nombre: " + search_nombre.val() + "%0D%0A" + "%0D%0A" + search_body.val;
 
 	
 }
