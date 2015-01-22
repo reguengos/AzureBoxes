@@ -209,6 +209,7 @@ ul{
 
 .box {
     width: 300px;
+    height: 174px !important;
 	margin: 10px 70px 10px 0px;
     height: auto;
     overflow: hidden;
@@ -805,6 +806,7 @@ ul{
 
 .box{
 	width: 300px;
+	height: 174px !important;
 	margin-bottom: 25px;
 	margin-left: 8px;
 	margin-right: 4px;
@@ -1716,6 +1718,7 @@ ul{
 
 .box{
 	width: 280px;
+	height: 174px !important;
 	margin: 10px 0px;
 	height: auto;
 	overflow: hidden;
